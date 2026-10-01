@@ -1,0 +1,144 @@
+{
+  "project": "C5B-QO-QW01",
+  "G": 6.6743e-11,
+  "c": 299792458.0,
+  "M_earth": 5.9722e+24,
+  "R_earth": 6371000.0,
+  "f": [
+    0.0,
+    1e-10,
+    1e-09,
+    1e-08,
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "alpha_initial": [
+    1.01,
+    1.1,
+    1.5,
+    2.0,
+    5.0,
+    10.0,
+    100.0
+  ],
+  "alpha_refined": [
+    1.001,
+    1.005,
+    1.01,
+    1.1,
+    1.2042013330037094,
+    1.2163649828320298,
+    1.2285286326603502,
+    1.5,
+    1.99,
+    2.0,
+    2.01,
+    5.0,
+    10.0,
+    100.0
+  ],
+  "alpha_NEC_min_location_transition": 1.2163649828320298,
+  "refinement_reason": "limite alpha=1; sinal E_W em alpha=2; mínimo NEC sai da garganta",
+  "radial_resolutions": [
+    650,
+    1300
+  ],
+  "PREM_sha256": "637d641a905960f4c789e0f6327e5a6b0a407c5dde1a4943e8675ef16678c1f1",
+  "PREM_source_commit": "313e3e7db01c64be08091172c5c6f4e6d5bdda86",
+  "PREM_layers": [
+    [
+      0.0,
+      1221.5,
+      [
+        13.0885,
+        0.0,
+        -8.8381
+      ]
+    ],
+    [
+      1221.5,
+      3480.0,
+      [
+        12.5815,
+        -1.2638,
+        -3.6426,
+        -5.5281
+      ]
+    ],
+    [
+      3480.0,
+      5701.0,
+      [
+        7.9565,
+        -6.4761,
+        5.5283,
+        -3.0807
+      ]
+    ],
+    [
+      5701.0,
+      5771.0,
+      [
+        5.3197,
+        -1.4836
+      ]
+    ],
+    [
+      5771.0,
+      5971.0,
+      [
+        11.2494,
+        -8.0298
+      ]
+    ],
+    [
+      5971.0,
+      6151.0,
+      [
+        7.1089,
+        -3.8045
+      ]
+    ],
+    [
+      6151.0,
+      6346.6,
+      [
+        2.691,
+        0.6924
+      ]
+    ],
+    [
+      6346.6,
+      6356.0,
+      [
+        2.9
+      ]
+    ],
+    [
+      6356.0,
+      6368.0,
+      [
+        2.6
+      ]
+    ],
+    [
+      6368.0,
+      6371.0,
+      [
+        1.02
+      ]
+    ]
+  ],
+  "PREM_normalization": 0.9998364441686749,
+  "metric_composition": "b=bW+2Gm_mat/c²; Phi=PhiW+Phi_E(TOV prescrito)",
+  "mass_convention": "massa gravitacional em volume areal; não massa bariônica própria",
+  "TOV_rtol": 2e-11,
+  "TOV_max_step_log_r": 1.0,
+  "NEC_volume": "uma boca isolada até infinito; volume próprio; não ANEC",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0"
+}

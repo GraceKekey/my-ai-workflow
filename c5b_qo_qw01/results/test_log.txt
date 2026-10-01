@@ -1,0 +1,18 @@
+test_01_mass_conservation (__main__.WormholeTests.test_01_mass_conservation) ... ok
+test_02_throat (__main__.WormholeTests.test_02_throat) ... ok
+test_03_flare_out (__main__.WormholeTests.test_03_flare_out) ... ok
+test_04_no_horizon (__main__.WormholeTests.test_04_no_horizon) ... ok
+test_05_asymptotic (__main__.WormholeTests.test_05_asymptotic) ... ok
+test_06_f_zero_PREM (__main__.WormholeTests.test_06_f_zero_PREM) ... ok
+test_07_convergence (__main__.WormholeTests.test_07_convergence) ... ok
+test_08_finite_domain (__main__.WormholeTests.test_08_finite_domain) ... ok
+test_09_curvature_throat_finite (__main__.WormholeTests.test_09_curvature_throat_finite) ... ok
+test_10_symbolic_and_conservation (__main__.WormholeTests.test_10_symbolic_and_conservation) ... ok
+test_11_NEC_and_volume (__main__.WormholeTests.test_11_NEC_and_volume) ... ok
+test_12_negative_energy_not_same_as_NEC (__main__.WormholeTests.test_12_negative_energy_not_same_as_NEC) ... ok
+test_13_invariants_Schwarzschild_known_result (__main__.WormholeTests.test_13_invariants_Schwarzschild_known_result) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 5.017s
+
+OK
