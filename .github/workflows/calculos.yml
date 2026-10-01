@@ -1,0 +1,52 @@
+name: Cálculos simples
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      operacao:
+        description: Operação
+        required: true
+        type: choice
+        default: soma
+        options: [soma, subtracao, multiplicacao, divisao]
+      a:
+        description: Primeiro número (ponto ou vírgula decimal)
+        required: true
+        type: string
+        default: '10'
+      b:
+        description: Segundo número (ponto ou vírgula decimal)
+        required: true
+        type: string
+        default: '5'
+
+permissions:
+  contents: read
+
+jobs:
+  calcular:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Executar testes
+        run: python -m unittest discover -s tests -v
+      - name: Calcular
+        env:
+          OPERACAO: ${{ inputs.operacao || 'soma' }}
+          NUMERO_A: ${{ inputs.a || '10' }}
+          NUMERO_B: ${{ inputs.b || '5' }}
+        run: python calculadora.py --output resultado.json -- "$OPERACAO" "$NUMERO_A" "$NUMERO_B"
+      - name: Disponibilizar resultado
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-calculo
+          path: resultado.json
+          if-no-files-found: error
