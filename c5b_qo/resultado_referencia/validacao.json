@@ -1,0 +1,255 @@
+{
+  "rs_f1_m": 0.0088701028718461,
+  "g_superficie_m_s2": 9.820302293385645,
+  "M_prem_original_kg": 5.97317694792137e+24,
+  "normalizacao_prem": 0.9998364441686749,
+  "P0_central_Pa": 363970907053.5999,
+  "I0_MR2": 0.33079948660408365,
+  "limite_f_observacional": null,
+  "motivo_limite_indefinido": "Faltam dados sísmicos, covariâncias, EOS e dinâmica de acreção.",
+  "todas_validacoes_aprovadas": true,
+  "prem_convergencia": [
+    {
+      "f": 0.0,
+      "P_quadratura_Pa": 363970907053.5759,
+      "erro_P_1200_rel": 1.207561383056823e-10,
+      "erro_P_2400_rel": 4.023946917162292e-12,
+      "mudanca_resolucao_rel": 1.1673219138852e-10,
+      "erro_P_raios_referencia_rel": 1.6398692006464288e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 0.0
+    },
+    {
+      "f": 1e-08,
+      "P_quadratura_Pa": 416133443741.3493,
+      "erro_P_1200_rel": 4.5810822980122577e-11,
+      "erro_P_2400_rel": 4.146052919431428e-11,
+      "mudanca_resolucao_rel": 4.350293785808301e-12,
+      "erro_P_raios_referencia_rel": 1.6396488132211003e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.8701028718461e-11
+    },
+    {
+      "f": 1e-07,
+      "P_quadratura_Pa": 885596226985.023,
+      "erro_P_1200_rel": 6.619290896174841e-10,
+      "erro_P_2400_rel": 2.0970586371166674e-10,
+      "mudanca_resolucao_rel": 4.522232259058173e-10,
+      "erro_P_raios_referencia_rel": 1.638437235647156e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.870102871846099e-10
+    },
+    {
+      "f": 1e-06,
+      "P_quadratura_Pa": 5580219411739.366,
+      "erro_P_1200_rel": 1.1213893524774491e-09,
+      "erro_P_2400_rel": 3.351707224881352e-10,
+      "mudanca_resolucao_rel": 7.86218629989314e-10,
+      "erro_P_raios_referencia_rel": 1.6293431376309896e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.870102871846098e-09
+    },
+    {
+      "f": 1e-05,
+      "P_quadratura_Pa": 52525986491043.84,
+      "erro_P_1200_rel": 1.1988528706307517e-09,
+      "erro_P_2400_rel": 3.5632927861700116e-10,
+      "mudanca_resolucao_rel": 8.425235920137506e-10,
+      "erro_P_raios_referencia_rel": 1.506820321423744e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.8701028718461e-08
+    },
+    {
+      "f": 0.0001,
+      "P_quadratura_Pa": 521937180460192.1,
+      "erro_P_1200_rel": 1.2071326992732862e-09,
+      "erro_P_2400_rel": 3.5858925078872526e-10,
+      "mudanca_resolucao_rel": 8.485434484845609e-10,
+      "erro_P_raios_referencia_rel": 1.1248405846301739e-11,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.8701028718461e-07
+    },
+    {
+      "f": 0.001,
+      "P_quadratura_Pa": 5211401437762019.0,
+      "erro_P_1200_rel": 1.207965856244497e-09,
+      "erro_P_2400_rel": 3.5882037151277934e-10,
+      "mudanca_resolucao_rel": 8.491454847317177e-10,
+      "erro_P_raios_referencia_rel": 1.1809745881415942e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.870102871846099e-06
+    },
+    {
+      "f": 0.01,
+      "P_quadratura_Pa": 5.164127577181474e+16,
+      "erro_P_1200_rel": 1.2080480791307088e-09,
+      "erro_P_2400_rel": 3.5883776539296765e-10,
+      "mudanca_resolucao_rel": 8.492103137377411e-10,
+      "erro_P_raios_referencia_rel": 5.922900191014655e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 8.870102871846099e-05
+    },
+    {
+      "f": 0.05,
+      "P_quadratura_Pa": 2.4777241480562394e+17,
+      "erro_P_1200_rel": 1.2080548039813752e-09,
+      "erro_P_2400_rel": 3.588440144547596e-10,
+      "mudanca_resolucao_rel": 8.492107895266156e-10,
+      "erro_P_raios_referencia_rel": 9.6317299036275e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 0.00044350514359230495
+    },
+    {
+      "f": 0.1,
+      "P_quadratura_Pa": 4.6946319521578694e+17,
+      "erro_P_1200_rel": 1.2080572828277136e-09,
+      "erro_P_2400_rel": 3.5884266480691087e-10,
+      "mudanca_resolucao_rel": 8.492146180208026e-10,
+      "erro_P_raios_referencia_rel": 8.499995323380797e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 0.0008870102871846099
+    },
+    {
+      "f": 0.25,
+      "P_quadratura_Pa": 9.780479138989526e+17,
+      "erro_P_1200_rel": 1.2080580830542736e-09,
+      "erro_P_2400_rel": 3.588411518622798e-10,
+      "mudanca_resolucao_rel": 8.492169311919939e-10,
+      "erro_P_raios_referencia_rel": 9.1777413164985e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 0.002217525717961525
+    },
+    {
+      "f": 0.5,
+      "P_quadratura_Pa": 1.3040637032131497e+18,
+      "erro_P_1200_rel": 1.2080591677525607e-09,
+      "erro_P_2400_rel": 3.588406784476795e-10,
+      "mudanca_resolucao_rel": 8.492184893048812e-10,
+      "erro_P_raios_referencia_rel": 8.887220197082373e-10,
+      "erro_massa_rel": 1.7978999765580521e-16,
+      "epsilon_rs_rmin": 0.00443505143592305
+    }
+  ],
+  "politropo_convergencia": [
+    {
+      "f": 0.0,
+      "erro_raio_analitico_Rterra": 0.0,
+      "erro_max_w_analitico": 2.6107588313450947e-13,
+      "erro_max_massa_analitica_M": 6.3612448641947594e-12,
+      "residuo_shooting_M": 1.2722008324685685e-20,
+      "mudanca_raio_passo_tolerancia_Rterra": 0.0,
+      "mudanca_Pmax_passo_tolerancia_rel": 1.0992457218523679e-10,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 1e-08,
+      "erro_raio_analitico_Rterra": 1.2212453270876722e-14,
+      "erro_max_w_analitico": 2.373934382404741e-13,
+      "erro_max_massa_analitica_M": 7.876588270505636e-12,
+      "residuo_shooting_M": 2.0058757126826905e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 6.6880945226444055e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 2.0037808983789317e-09,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 1e-07,
+      "erro_raio_analitico_Rterra": 8.881784197001252e-15,
+      "erro_max_w_analitico": 2.411543187363918e-13,
+      "erro_max_massa_analitica_M": 8.614331470369052e-12,
+      "residuo_shooting_M": -1.8012763104804556e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 7.111644606538903e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 4.0900765589980485e-09,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 1e-06,
+      "erro_raio_analitico_Rterra": 1.0658141036401503e-14,
+      "erro_max_w_analitico": 2.3935714521527984e-13,
+      "erro_max_massa_analitica_M": 8.298028930653345e-12,
+      "residuo_shooting_M": -2.959638996824932e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 6.689426790273956e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 9.68182877054464e-10,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 1e-05,
+      "erro_raio_analitico_Rterra": 1.0547118733938987e-14,
+      "erro_max_w_analitico": 2.3935714521527984e-13,
+      "erro_max_massa_analitica_M": 8.38873415176522e-12,
+      "residuo_shooting_M": 1.6633016578643245e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 7.200018359299065e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 9.189870054669339e-11,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.0001,
+      "erro_raio_analitico_Rterra": 9.658940314238862e-15,
+      "erro_max_w_analitico": 2.4023144584717215e-13,
+      "erro_max_massa_analitica_M": 8.453238109495942e-12,
+      "residuo_shooting_M": -3.4653811938067935e-17,
+      "mudanca_raio_passo_tolerancia_Rterra": 7.31714688839702e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 3.2950569089329477e-12,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.001,
+      "erro_raio_analitico_Rterra": 1.587618925213974e-14,
+      "erro_max_w_analitico": 2.3149537842215295e-13,
+      "erro_max_massa_analitica_M": 7.037259663889017e-12,
+      "residuo_shooting_M": 2.7538735181131813e-17,
+      "mudanca_raio_passo_tolerancia_Rterra": 6.671441177275028e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 5.673240661100305e-13,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.01,
+      "erro_raio_analitico_Rterra": 1.6653345369377348e-14,
+      "erro_max_w_analitico": 2.2253032749830481e-13,
+      "erro_max_massa_analitica_M": 6.9998451479591495e-12,
+      "residuo_shooting_M": -2.914335439641036e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 7.190470441287289e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 1.5968522861322667e-13,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.05,
+      "erro_raio_analitico_Rterra": 2.2537527399890678e-14,
+      "erro_max_w_analitico": 1.9079182678183315e-13,
+      "erro_max_massa_analitica_M": 6.136091634800778e-12,
+      "residuo_shooting_M": 1.1102230246251565e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 6.061484647545967e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 3.642235167874977e-15,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.1,
+      "erro_raio_analitico_Rterra": 2.9531932455029164e-14,
+      "erro_max_w_analitico": 1.5951823195692327e-13,
+      "erro_max_massa_analitica_M": 4.295119815367343e-12,
+      "residuo_shooting_M": -6.938893903907228e-17,
+      "mudanca_raio_passo_tolerancia_Rterra": 4.8969717170166405e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 2.91379747428985e-16,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.25,
+      "erro_raio_analitico_Rterra": 3.708144902248023e-14,
+      "erro_max_w_analitico": 1.1024514634527804e-13,
+      "erro_max_massa_analitica_M": 1.3387069230930138e-12,
+      "residuo_shooting_M": -1.1379786002407855e-15,
+      "mudanca_raio_passo_tolerancia_Rterra": 2.4554802635634587e-12,
+      "mudanca_Pmax_passo_tolerancia_rel": 3.1702181872557004e-15,
+      "rho_min_kg_m3": 0.0
+    },
+    {
+      "f": 0.5,
+      "erro_raio_analitico_Rterra": 4.8183679268731794e-14,
+      "erro_max_w_analitico": 9.076073226310655e-14,
+      "erro_max_massa_analitica_M": 2.0461410343841635e-13,
+      "residuo_shooting_M": 4.440892098500626e-16,
+      "mudanca_raio_passo_tolerancia_Rterra": 3.9268588380991787e-13,
+      "mudanca_Pmax_passo_tolerancia_rel": 3.916155483240759e-15,
+      "rho_min_kg_m3": 0.0
+    }
+  ]
+}
