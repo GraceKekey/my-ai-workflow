@@ -1,0 +1,128 @@
+name: Física quântica na nuvem
+run-name: Quantum oscillator - ${{ github.event_name }} - ${{ inputs.grid_points || '4095' }} points
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'quantum/**'
+      - 'scripts/run_quantum_cloud.py'
+      - 'tests/test_quantum*.py'
+      - 'requirements-quantum.txt'
+      - '.github/workflows/quantum.yml'
+  workflow_dispatch:
+    inputs:
+      grid_points:
+        description: 'Pontos interiores da malha final (127..200000; N+1 divisível por 2^(levels-1))'
+        type: string
+        default: '4095'
+      states:
+        description: 'Número de estados (1..32)'
+        type: string
+        default: '6'
+      half_width:
+        description: 'Semi-extensão em comprimentos do oscilador (3..20)'
+        type: string
+        default: '8'
+      levels:
+        description: 'Malhas de convergência (3..5)'
+        type: string
+        default: '3'
+      mass:
+        description: 'Massa positiva; unidade consistente com hbar e omega'
+        type: string
+        default: '1'
+      omega:
+        description: 'Frequência angular positiva (rad/unidade de tempo)'
+        type: string
+        default: '1'
+      hbar:
+        description: 'Constante de Planck reduzida positiva; 1 para unidades reduzidas'
+        type: string
+        default: '1'
+      max_seconds:
+        description: 'Orçamento total do cálculo em segundos (60..2400)'
+        type: string
+        default: '600'
+      memory_mb:
+        description: 'Teto de memória estimada em MiB (256..4096)'
+        type: string
+        default: '4096'
+      resume_run_id:
+        description: 'ID de execução anterior com quantum-results; vazio para iniciar'
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: quantum-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  oscillator:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-quantum.txt
+      - name: Instalar dependências científicas
+        run: |
+          mkdir -p results
+          set -o pipefail
+          python -m pip install -r requirements-quantum.txt 2>&1 | tee results/dependencies.log
+          python -m pip freeze > results/environment.txt
+      - name: Restaurar checkpoints de execução anterior
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.resume_run_id != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: quantum-results
+          path: restored
+          run-id: ${{ inputs.resume_run_id }}
+          github-token: ${{ github.token }}
+      - name: Preparar checkpoints
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.resume_run_id != '' }}
+        run: |
+          test -d restored/checkpoints
+          cp -r restored/checkpoints results/checkpoints
+      - name: Testes da calculadora e da física quântica
+        run: |
+          set -o pipefail
+          python -m unittest discover -s tests -v 2>&1 | tee results/tests.log
+      - name: Estimar recursos, calcular em lotes e validar
+        env:
+          GRID_POINTS: ${{ inputs.grid_points || '4095' }}
+          STATES: ${{ inputs.states || '6' }}
+          HALF_WIDTH: ${{ inputs.half_width || '8' }}
+          LEVELS: ${{ inputs.levels || '3' }}
+          MASS: ${{ inputs.mass || '1' }}
+          OMEGA: ${{ inputs.omega || '1' }}
+          HBAR: ${{ inputs.hbar || '1' }}
+          MAX_SECONDS: ${{ inputs.max_seconds || '600' }}
+          MEMORY_MB: ${{ inputs.memory_mb || '4096' }}
+          RESUME_RUN_ID: ${{ inputs.resume_run_id }}
+        run: |
+          set -o pipefail
+          python scripts/run_quantum_cloud.py 2>&1 | tee results/run.log
+      - name: Disponibilizar resultados e checkpoints
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: quantum-results
+          path: results/
+          if-no-files-found: error
+          retention-days: 30

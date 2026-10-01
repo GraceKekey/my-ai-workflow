@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 resultado.json
 .venv/
+results/
+restored/
+planning/
