@@ -1,0 +1,226 @@
+{
+  "repository": "GraceKekey/my-ai-workflow",
+  "searched_date_UTC": "2026-10-03",
+  "workspace": "/workspace",
+  "only_accessible_installed_repository": true,
+  "code_search_indexed": false,
+  "method": "Full recursive Git tree enumeration for all three accessible branches, workspace file enumeration, archive member inspection, and artifacts from all accessible workflow runs.",
+  "git_trees": [
+    {
+      "ref": "main",
+      "truncated": false,
+      "paths": [
+        ".github",
+        ".github/workflows",
+        ".github/workflows/calculos.yml",
+        ".github/workflows/quantum.yml",
+        ".gitignore",
+        "AGENTS.md",
+        "README.md",
+        "calculadora.py",
+        "quantum",
+        "quantum/__init__.py",
+        "quantum/oscillator.py",
+        "quantum/resources.py",
+        "quantum/run.py",
+        "requirements-quantum.txt",
+        "scripts",
+        "scripts/run_quantum_cloud.py",
+        "tests",
+        "tests/test_calculadora.py",
+        "tests/test_quantum_numerics.py",
+        "tests/test_quantum_resources.py"
+      ]
+    },
+    {
+      "ref": "09daa9bc020f2befa7a8c9ff822045b7a2a42fef",
+      "truncated": false,
+      "paths": [
+        ".github",
+        ".github/workflows",
+        ".github/workflows/c5b-qo-qw01.yml",
+        ".github/workflows/c5b-qo.yml",
+        ".github/workflows/calculos.yml",
+        ".gitignore",
+        "README.md",
+        "c5b_qo",
+        "c5b_qo/.gitignore",
+        "c5b_qo/README.md",
+        "c5b_qo/requirements.txt",
+        "c5b_qo/resultado_referencia",
+        "c5b_qo/resultado_referencia/parametros.json",
+        "c5b_qo/resultado_referencia/referencia_schwarzschild.csv",
+        "c5b_qo/resultado_referencia/relatorio.md",
+        "c5b_qo/resultado_referencia/sensibilidade_corte.csv",
+        "c5b_qo/resultado_referencia/tabela_politropo.csv",
+        "c5b_qo/resultado_referencia/tabela_prem.csv",
+        "c5b_qo/resultado_referencia/transicoes_ilustrativas.csv",
+        "c5b_qo/resultado_referencia/validacao.json",
+        "c5b_qo/study.py",
+        "c5b_qo/tests",
+        "c5b_qo/tests/test_study.py",
+        "c5b_qo_qw01",
+        "c5b_qo_qw01/README.md",
+        "c5b_qo_qw01/data",
+        "c5b_qo_qw01/data/PREM_SOURCE.json",
+        "c5b_qo_qw01/data/parameters.json",
+        "c5b_qo_qw01/report",
+        "c5b_qo_qw01/report/C5B_QO_QW01_REPORT.md",
+        "c5b_qo_qw01/report/symbolic_derivations.json",
+        "c5b_qo_qw01/requirements.txt",
+        "c5b_qo_qw01/results",
+        "c5b_qo_qw01/results/earth_samples.csv",
+        "c5b_qo_qw01/results/full_grid.csv",
+        "c5b_qo_qw01/results/summary.csv",
+        "c5b_qo_qw01/results/test_log.txt",
+        "c5b_qo_qw01/results/test_results.json",
+        "c5b_qo_qw01/results/validation.json",
+        "c5b_qo_qw01/src",
+        "c5b_qo_qw01/src/earth.py",
+        "c5b_qo_qw01/src/geometry.py",
+        "c5b_qo_qw01/src/outputs.py",
+        "c5b_qo_qw01/src/prem_adapter.py",
+        "c5b_qo_qw01/src/run_c5b_qo_qw01.py",
+        "c5b_qo_qw01/src/symbolic_checks.py",
+        "c5b_qo_qw01/tests",
+        "c5b_qo_qw01/tests/test_c5b_qo_qw01.py",
+        "calculadora.py",
+        "tests",
+        "tests/test_calculadora.py"
+      ]
+    },
+    {
+      "ref": "313e3e7db01c64be08091172c5c6f4e6d5bdda86",
+      "truncated": false,
+      "paths": [
+        ".github",
+        ".github/workflows",
+        ".github/workflows/c5b-qo.yml",
+        ".github/workflows/calculos.yml",
+        ".gitignore",
+        "README.md",
+        "c5b_qo",
+        "c5b_qo/.gitignore",
+        "c5b_qo/README.md",
+        "c5b_qo/requirements.txt",
+        "c5b_qo/resultado_referencia",
+        "c5b_qo/resultado_referencia/parametros.json",
+        "c5b_qo/resultado_referencia/referencia_schwarzschild.csv",
+        "c5b_qo/resultado_referencia/relatorio.md",
+        "c5b_qo/resultado_referencia/sensibilidade_corte.csv",
+        "c5b_qo/resultado_referencia/tabela_politropo.csv",
+        "c5b_qo/resultado_referencia/tabela_prem.csv",
+        "c5b_qo/resultado_referencia/transicoes_ilustrativas.csv",
+        "c5b_qo/resultado_referencia/validacao.json",
+        "c5b_qo/study.py",
+        "c5b_qo/tests",
+        "c5b_qo/tests/test_study.py",
+        "calculadora.py",
+        "tests",
+        "tests/test_calculadora.py"
+      ]
+    }
+  ],
+  "workflow_runs": [
+    {
+      "id": 37019544822,
+      "name": "Cálculos simples",
+      "branch": "main",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11231628429,
+          "name": "resultado-calculo",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 36943521504,
+      "name": "C5B-QO-QW01 wormhole",
+      "branch": "c5b-qo/qw01-20261001",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11201282575,
+          "name": "C5B_QO_QW01",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 36806109913,
+      "name": "Ensaio C5B-QO",
+      "branch": "c5b-qo/ensaio-terrestre-20261001",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11137673634,
+          "name": "c5b-qo-resultados",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 36805905035,
+      "name": "Quantum oscillator - push - 4095 points",
+      "branch": "main",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11137633383,
+          "name": "quantum-results",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 36805905000,
+      "name": "Cálculos simples",
+      "branch": "main",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11137317316,
+          "name": "resultado-calculo",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 36796593137,
+      "name": "Cálculos simples",
+      "branch": "main",
+      "conclusion": "success",
+      "artifacts": [
+        {
+          "id": 11133857859,
+          "name": "resultado-calculo",
+          "expired": false
+        }
+      ]
+    }
+  ],
+  "archive_scan": {
+    "names": [
+      "c5b-qo-entrega.zip",
+      "downloads/C5B_QO_QW01.zip",
+      "my-ai-workflow/C5B_QO_QW01.zip",
+      "attachments/C5B_QO_QW01_GitHub_Artifacts.zip"
+    ],
+    "QW02_matches": 0,
+    "theory_document_matches": 0
+  },
+  "missing_required": [
+    "C5B_QO_QW02_Open_Closed_Cavity_Local.md",
+    "C5B_QO_QW02_alpha2_open_closed.csv",
+    "C5B_QO_QW02_cavity_thresholds.csv"
+  ],
+  "missing_additional_context": [
+    "C5B04_ANDROID.docx",
+    "Teoria_C5_Bifurcacao_C5A_C5B_Quanta_e_Campos...",
+    "Notebooks C5B relacionados à gravitação/geometria"
+  ],
+  "limits": "Search establishes absence in accessible current inputs, not absence in the user's other environments or historical offline files."
+}
+

@@ -1,0 +1,127 @@
+{
+  "project": "C5B_Earth_Constraint_Battery",
+  "status": "READY_FOR_SEQUENTIAL_BATTERY",
+  "constants_SI": {
+    "G": 6.6743e-11,
+    "c": 299792458,
+    "M_earth": 5.9722e+24,
+    "R_earth": 6371000
+  },
+  "alpha": 2,
+  "f_V": [
+    1e-12,
+    1e-11,
+    1e-10,
+    1e-09,
+    1e-08,
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "controls": {
+    "f_V_zero": 0,
+    "small_limit": true,
+    "resolution_multiplier": 2,
+    "mass_conservation": true,
+    "QW02_regression_required": true
+  },
+  "relative_gravity_thresholds": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1
+  ],
+  "relative_pressure_thresholds": [
+    0.1,
+    0.01,
+    0.001
+  ],
+  "radial_sample_m": [
+    1,
+    10,
+    100,
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "QW02": {
+    "matter_renormalization": "n=(1-f_V)/(1-M_PREM(<r_c)/M_earth); rho=n*rho_PREM outside cavity; zero inside",
+    "metric_matter_composition": "Reconstruction as QW01: phi=phi_matter+0.5 log(A_virtual), F_total=F_virtual-2G*m_matter/(c^2*r). Matter-only phi from TOV with prescribed cavity. Additional stress required.",
+    "pressure_comparator": "Same f and cavity-normalized matter profile without central virtual term.",
+    "cavity_junction": "Unspecified support; nonzero inner material pressure requires surface or sector-Q stresses.",
+    "source_paths": [
+      "data/C5B_QO_QW02_Open_Closed_Cavity_Local.md"
+    ],
+    "regression_source": "18 rounded numbers in supplied Markdown; CSVs/source code absent",
+    "expected_report_sha256": "0355771f1874ceaa35e3e5f1d155b601c9a6e6791e86233b864bb4b9fa097999"
+  },
+  "epistemic_categories": {
+    "F": "Física estabelecida ou dado.",
+    "M": "Resultado matemático-numérico.",
+    "H": "Hipótese C5B.",
+    "question": "Questão aberta."
+  },
+  "rules": {
+    "same_theta_all_tests": true,
+    "no_parameter_fitting_to_save_model": true,
+    "no_new_tests_before_QW02_regression": true,
+    "no_invented_observational_limits": true
+  },
+  "expected_PREM_sha256": "637d641a905960f4c789e0f6327e5a6b0a407c5dde1a4943e8675ef16678c1f1",
+  "sensitivity_only": {
+    "mass_material_sigma_fraction": [
+      0.01,
+      0.001,
+      0.0001,
+      1e-05,
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-09,
+      1e-10,
+      1e-11,
+      1e-12
+    ],
+    "inertia_assumed_sigma_fraction": [
+      0.01,
+      0.001,
+      0.0001,
+      1e-05,
+      1e-06
+    ],
+    "seismic_frequency_Hz": [
+      0.1,
+      1.0,
+      2.0
+    ],
+    "radial_mode_gamma": 1.6666666666666667,
+    "rarefied_density_ratio": 0.01,
+    "rarefied_vP_ratios": [
+      0.1,
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "prediction_preregistered": {
+    "id": "C5B-Earth-01",
+    "observed_target_not_used_to_fit": true,
+    "f_V_interval": [
+      9e-07,
+      1.1e-06
+    ],
+    "alpha": 2,
+    "rc_rule": "minimal cavity for 1% prescribed-model pressure excess",
+    "target": "independently inferred global material mass deficit",
+    "predicted_deficit_fraction": [
+      9e-07,
+      1.1e-06
+    ],
+    "future_sigma_fraction": 1e-07,
+    "conditional_only": "Cavity support, material sector and independent mass likelihood must exist; region is unresolved, not jointly demonstrated compatible."
+  }
+}

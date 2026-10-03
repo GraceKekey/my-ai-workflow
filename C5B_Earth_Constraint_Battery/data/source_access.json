@@ -1,0 +1,26 @@
+[
+  {
+    "name": "neutrino_primary",
+    "url": "https://arxiv.org/abs/1803.05901",
+    "available": false,
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "name": "PREM_primary_metadata",
+    "url": "https://ds.iris.edu/ds/products/emc-prem/",
+    "available": false,
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "name": "earth_fact_sheet",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+    "available": false,
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "name": "slichter_primary_search",
+    "url": "https://api.crossref.org/works?query.title=Slichter%20mode%20translational%20inner%20core&rows=3",
+    "available": false,
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  }
+]

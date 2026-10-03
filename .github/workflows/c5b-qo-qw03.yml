@@ -1,0 +1,44 @@
+name: C5B-QO-QW03 Earth constraint battery
+on:
+  push:
+    branches: [c5b-qo/qw03-earth-20261003]
+    paths:
+      - C5B_Earth_Constraint_Battery/**
+      - .github/workflows/c5b-qo-qw03.yml
+permissions:
+  contents: read
+jobs:
+  regression-and-battery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical dependencies
+        run: python -m pip install -r C5B_Earth_Constraint_Battery/requirements.txt
+      - name: Retrieve public reference metadata without fitting
+        run: python C5B_Earth_Constraint_Battery/fetch_sources.py
+      - name: QW02 regression, controls, sequential battery and verification
+        run: python C5B_Earth_Constraint_Battery/run_all.py > C5B_Earth_Constraint_Battery/results/execution_log.txt 2>&1
+      - name: Verify and prepare full downloadable ZIP contents
+        run: |
+          python - <<'PY'
+          import zipfile,json,hashlib
+          from pathlib import Path
+          archive=Path('C5B_QO_QW03_Earth_Constraint_Battery.zip')
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              manifest=json.loads(z.read('C5B_Earth_Constraint_Battery/results/manifest_sha256.json'))
+              for name,digest in manifest.items():
+                  assert hashlib.sha256(z.read(name)).hexdigest()==digest
+              z.extractall('delivery')
+          print('Complete artifact verified:',len(manifest),'manifest files')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: C5B_QO_QW03_Earth_Constraint_Battery
+          path: delivery/
+          retention-days: 30
+          if-no-files-found: error
