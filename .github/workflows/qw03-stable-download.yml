@@ -1,0 +1,56 @@
+name: QW03 stable ZIP download
+on:
+  push:
+    branches: [c5b-qo/qw03-download-20261003]
+    paths: [.github/workflows/qw03-stable-download.yml]
+permissions:
+  contents: write
+  actions: read
+jobs:
+  prepare-download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the completed artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p downloads
+          curl --fail --silent --show-error --location \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/GraceKekey/my-ai-workflow/actions/artifacts/11276058744/zip" \
+            --output downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip
+      - name: Verify the archive and every manifest entry
+        run: |
+          python - <<'PY'
+          import hashlib, json, zipfile
+          from pathlib import Path
+          p = Path("downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip")
+          expected = "3e0fbc0f47aad47d19dd96b6a80654f0fd6c830d3bfb188e792f7b813519c9d6"
+          assert hashlib.sha256(p.read_bytes()).hexdigest() == expected
+          with zipfile.ZipFile(p) as z:
+              assert z.testzip() is None
+              manifest = json.loads(z.read("C5B_Earth_Constraint_Battery/results/manifest_sha256.json"))
+              for name, digest in manifest.items():
+                  assert hashlib.sha256(z.read(name)).hexdigest() == digest, name
+              print("Verified:", len(z.namelist()), "archive entries,", len(manifest), "manifest hashes")
+          Path("downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip.sha256").write_text(
+              expected + "  C5B_QO_QW03_Earth_Constraint_Battery.zip\n")
+          PY
+      - name: Preserve the verified ZIP on the delivery branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip.sha256
+          git commit -m "Deliver verified QW03 ZIP with a stable direct file URL"
+          git push origin HEAD
+      - name: Test the public download without authentication
+        run: |
+          QW03_DELIVERY_COMMIT=$(git rev-parse HEAD)
+          QW03_PUBLIC_URL="https://raw.githubusercontent.com/GraceKekey/my-ai-workflow/$QW03_DELIVERY_COMMIT/downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip"
+          curl --fail --silent --show-error --location --retry 4 --retry-all-errors --retry-delay 3 "$QW03_PUBLIC_URL" --output "$RUNNER_TEMP/qw03-public.zip"
+          cmp downloads/C5B_QO_QW03_Earth_Constraint_Battery.zip "$RUNNER_TEMP/qw03-public.zip"
+          echo "VERIFIED_DIRECT_DOWNLOAD=$QW03_PUBLIC_URL"
