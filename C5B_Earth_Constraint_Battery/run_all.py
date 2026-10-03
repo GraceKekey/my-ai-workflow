@@ -15,6 +15,7 @@ def tests():
 
 def main():
     start=time.time()
+    for folder in ['data','results','tables','plots']:(ROOT/folder).mkdir(parents=True,exist_ok=True)
     if not regression():raise RuntimeError('QW02 regression failed')
     tests()
     save_json('results/stage_progress.json',[])
