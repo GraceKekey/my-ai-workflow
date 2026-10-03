@@ -11,13 +11,14 @@ def fetch(item):
     try:
         with urlopen(Request(url,headers={'User-Agent':'C5B-QW03-reproducible-research/1.0'}),timeout=15) as response:
             raw=response.read(1000000);content_type=response.headers.get('Content-Type','')
-        (ROOT/'data'/(name+'.txt')).write_bytes(raw)
         text=raw.decode('utf-8','replace')
         if 'crossref' in name:
             m=json.loads(text)['message'];extract={'title':m.get('title'),'DOI':m.get('DOI'),'authors':[a.get('family') for a in m.get('author',[])]}
         else:
             clean=re.sub(r'\s+',' ',re.sub('<[^>]+>',' ',text))
-            extract=[clean[max(0,m.start()-100):m.end()+700] for m in re.finditer(r'(?i)Abstract:|mass of the Earth|total mass|inertia|Preliminary reference',clean)][:8]
+            # Archive factual provenance, not redundant full webpage/abstract copies.
+            channels=[label for pattern,label in [('mass of the Earth','Earth mass'),('moment of inertia','Moment of inertia'),('mass of the Earth&#39;s core','Core mass'),('seismological','Complementarity with seismology')] if re.search(pattern,clean,re.I)]
+            extract={'identified_observables':channels,'raw_likelihood_available':False,'numerical_precision_adopted':None}
         return {'name':name,'url':url,'available':True,'sha256':hashlib.sha256(raw).hexdigest(),'content_type':content_type,'extract':extract,'used_for_parameter_fit':False}
     except Exception as e:return {'name':name,'url':url,'available':False,'error':str(e),'used_for_parameter_fit':False}
 

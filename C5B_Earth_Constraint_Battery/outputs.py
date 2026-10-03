@@ -97,7 +97,7 @@ def report(rows,verification):
     source_note=(f"Metadados/textos de {len(available_sources)} referências públicas foram obtidos no GitHub Actions; ver `data/source_access_cloud.json`. Isso não fornece os dados brutos ou covariâncias necessários para uma likelihood observacional." if available_sources else 'Consulta a páginas científicas externas ficou indisponível neste ambiente; `data/source_access.json` documenta tentativas.')
     neutrino_source=next((a for a in available_sources if a['name']=='neutrino_primary'),None)
     if neutrino_source and neutrino_source.get('extract'):
-        source_note+='\n\nExcerto da referência primária de neutrinos (preservado, sem transformar seu intervalo publicado em um limite independente de modelo):\n\n'+json.dumps(neutrino_source['extract'],ensure_ascii=False)
+        source_note+='\n\nCanais identificados na referência primária de neutrinos (sem transformar informações bibliográficas em um limite independente de modelo):\n\n'+json.dumps(neutrino_source['extract'],ensure_ascii=False)
     def reference(f):return next(r for r in rows if r['f_V']==f and r['pressure_tolerance']==.01 and r['state']=='open')
     small=reference(1e-6);large=reference(.001);reg=json.loads((ROOT/'results/regression_QW02.json').read_text());sl=json.loads((ROOT/'results/slichter_thresholds.json').read_text());pred=json.loads((ROOT/'results/C5B-Earth-01_prediction.json').read_text())
     sample='\n'.join(f"| {f:g} | {reference(f)['rc_m']:.6g} | {reference(f)['delta_I_over_I']:.6g} | {reference(f)['inner_core_volume_fraction_removed']:.6g} | {reference(f)['extra_radial_support_Pa']:.6g} |" for f in PARAMS['f_V'])
