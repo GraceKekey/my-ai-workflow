@@ -21,7 +21,7 @@ jobs:
       - name: Retrieve public reference metadata without fitting
         run: python C5B_Earth_Constraint_Battery/fetch_sources.py
       - name: QW02 regression, controls, sequential battery and verification
-        run: python C5B_Earth_Constraint_Battery/run_all.py > C5B_Earth_Constraint_Battery/results/execution_log.txt 2>&1
+        run: python -u C5B_Earth_Constraint_Battery/run_all.py
       - name: Verify and prepare full downloadable ZIP contents
         run: |
           python - <<'PY'

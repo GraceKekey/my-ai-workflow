@@ -57,6 +57,8 @@ def plots(rows):
 
 def validate(rows):
     out={};out['mass_residual_max']=max(abs(r['total_mass_residual_fraction']) for r in rows if r['rc_m'] is not None)
+    import sys,scipy,sympy
+    out['software_versions']={'Python':sys.version.split()[0],'NumPy':np.__version__,'SciPy':scipy.__version__,'Matplotlib':matplotlib.__version__,'SymPy':sympy.__version__}
     out['all_case_scalars_finite']=all(np.isfinite(v) for r in rows for v in r.values() if isinstance(v,(int,float)))
     from scipy.integrate import simpson
     convergence=[]
@@ -210,6 +212,7 @@ Obter dados/covariâncias independentes e o código/CSVs QW02 originais; definir
 - Neutrino tomography of Earth, arXiv:1803.05901: referência para futura obtenção de likelihood, não usada para um limite numérico. Consulta externa falhou; não atribuímos nenhuma precisão publicada sem acesso.
 '''
     doc=doc.replace('Consulta a páginas científicas externas ficou indisponível neste ambiente; `data/source_access.json` documenta tentativas.',source_note)
+    doc=doc.replace('As precisões espectrais na tabela são sensibilidade desse proxy.', 'As precisões espectrais na tabela são sensibilidade desse proxy. O trabalho da borda interna sob pressão não nula e a rigidez do suporte geométrico também não são modelados; a fórmula não é um autovalor da cavidade em equilíbrio.')
     doc=doc.replace('Pequena sobrepressão material não implica pequena tensão geométrica.',f"Pequena sobrepressão material não implica pequena tensão geométrica. Em {verification['negative_total_radial_NEC_at_cavity_cases']} casos, a NEC radial TOTAL também é negativa na borda da cavidade; os valores estão no CSV hidrostático e na grade completa. Para f=1e-6, critério 1%, estado aberto, o stress extra na borda é {small['extra_radial_support_Pa']:.6g} Pa.")
     if available_sources:
         doc=doc.replace('fontes externas não consultadas com sucesso','ausência de dados observacionais brutos e covariâncias, mesmo com metadados bibliográficos acessíveis')
