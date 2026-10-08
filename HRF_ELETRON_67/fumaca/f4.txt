@@ -1,0 +1,2 @@
+w=3.0: expoentes por posição [0.71, 2.0, 2.51, 3.59]  centróide 6.41 (z/w=2.14)  fecho(4w)=0.0029
+w=7.0: expoentes por posição [7.3, 3.03, 3.28, 3.64]  centróide 11.32 (z/w=1.62)  fecho(4w)=nan

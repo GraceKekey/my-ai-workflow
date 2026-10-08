@@ -1,0 +1,111 @@
+{
+  "created": "2026-10-08T18:31:47.025698-03:00",
+  "source_archive": "HRF_ELETRON_67_PACOTE_EXECUCAO_2026-10-08_1825-clau.zip",
+  "source_archive_sha256": "422c982a0dbbbd95ea9e3be82b77b99653b7ad4976c479fddb3044c751002ee3",
+  "previous_package_status": "SUPERSEDED_BEFORE_EXECUTION",
+  "user_authorization": "User explicitly requested execution and replacement with this corrected package. This authorizes running its defined out-of-plane squeezing experiment; its methodological D-E1 exception is documented, not a validation of a circular photon.",
+  "supplied_hash_checks": [
+    {
+      "file": "HRF_ELETRON_67_PROTOCOLO_2026-10-08_1820-clau.md",
+      "sha256": "fecd54001e93fed43c25b211aabb76cad0d5523b0d71630efc19fbbc8e360361",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "LEIAME_E67.md",
+      "sha256": "7465783cf09d1428a67aba68690135561709ba950fc9adeb5b83724fc48c1115",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "src/e65_holo.py",
+      "sha256": "8dcff36521ed074a9f3bcb8455860d3a3840198cc3ec69a345a568d77168727c",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "src/e67_particula.py",
+      "sha256": "01d69b274891a340bafe716c32df0fd0af82264e1f28cd85164c59cd61972a29",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "src/e67_rodar.py",
+      "sha256": "510058bccdf9a96b8527cf6116a1a4303dd780c3f49f94ca8c76f46475c96e02",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "src/avaliar_e67.py",
+      "sha256": "1f0abe0e546898ba998af0a47d5cd5e4a9a8a0eda404b8b593da274f444ec2d1",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/FUMACA_E67.md",
+      "sha256": "26becc3d45a92909b8b43b4392826bc46352b95f60acc0f4af5c587aaf107759",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/fum1.py",
+      "sha256": "9f80ec8884fa2f19176b4dd1f0d1aff949735f115883c0a9d3367d2e0991f6d5",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/fum2.py",
+      "sha256": "72825ca199c251530417ca2140ca5aaaf2f4ab6de4f26a34089621d4d301d557",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/fum3.py",
+      "sha256": "6cde176815131810cb50e9e196160de5e09cde7d015ca1d293ae3bb362db7767",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/fum4.py",
+      "sha256": "3e885b13cbb9da76542a84ee4591e018c6b69c91ef1e98514404320f4a27e56f",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/fum5.py",
+      "sha256": "b590f3364e8847bf88981fe198eb10550d4117d664bdb84c26f5f03424b7fda3",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/f1.txt",
+      "sha256": "50d4f4b2d0eddd9242fefa01fb9c2d22cb007274c511d213249f596e7086938e",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/f2.txt",
+      "sha256": "a29ed4d620e65b5125fd181fc1ec02b94cf0ed154195f05231317c454f50bfdd",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/f3.txt",
+      "sha256": "1727a489b5d968fcf03c856823a9f4714b6eaf1f29db3503e43124cf0c4d662c",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/f4.txt",
+      "sha256": "d8c32dbf085d66f3a0c093923fa8c8ee0bc44e1d492d68e61f0c55ba0f11c6ab",
+      "matches_supplied_hash": true
+    },
+    {
+      "file": "fumaca/f5.txt",
+      "sha256": "bb977e87de2d48fc71f2b2d86379ca2f4de3ed5081159bec0fa18ffc4affc553",
+      "matches_supplied_hash": true
+    }
+  ],
+  "original_files_modified": false,
+  "criteria_changed": false,
+  "mode": "FULL",
+  "lattice": [
+    64,
+    74
+  ],
+  "processes": 2,
+  "threads_per_process": 1,
+  "supplementary_audit": "Instrument every entropia_gauge call; preserve original evaluator and additionally report Vnu against same tolerance 1e-9 for all regions.",
+  "target_drive_parent": "1dyIdGbTqoufa3ylxZumV7jT3TNooUoPF",
+  "tag": "[M]"
+}
