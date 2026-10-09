@@ -1,0 +1,1475 @@
+{
+  "runs": [
+    {
+      "ppw": 20,
+      "cases": [
+        {
+          "angle": 45,
+          "helicity": 1,
+          "energy_drift": 5.440092820663267e-14,
+          "max_gauss_relative": 1.4668977457137053e-14,
+          "field_L2_error": 0.1344315670512462,
+          "velocity_error": 0.007585170489022181,
+          "momentum_over_energy": 0.9504853457961239,
+          "reconstructed_spectral_helicity": 0.9863318331906022,
+          "packet_phase_frequency_deviation_diagnostic": 0.002709014576710624,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 45,
+          "helicity": -1,
+          "energy_drift": 5.440092820663267e-14,
+          "max_gauss_relative": 1.4668977457137053e-14,
+          "field_L2_error": 0.1344315670512462,
+          "velocity_error": 0.007585170489022181,
+          "momentum_over_energy": 0.9504853457961239,
+          "reconstructed_spectral_helicity": -0.9863318331906022,
+          "packet_phase_frequency_deviation_diagnostic": 0.002709014576710624,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": 1,
+          "energy_drift": 1.3067324999838092e-13,
+          "max_gauss_relative": 1.4955437010455652e-14,
+          "field_L2_error": 0.13252786574091957,
+          "velocity_error": 0.0069653319841918694,
+          "momentum_over_energy": 0.9504496452118942,
+          "reconstructed_spectral_helicity": 0.9862971427318168,
+          "packet_phase_frequency_deviation_diagnostic": 0.002545152117456605,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": -1,
+          "energy_drift": 1.3067324999838092e-13,
+          "max_gauss_relative": 1.4955437010455652e-14,
+          "field_L2_error": 0.13252786574091957,
+          "velocity_error": 0.0069653319841918694,
+          "momentum_over_energy": 0.9504496452118942,
+          "reconstructed_spectral_helicity": -0.9862971427318168,
+          "packet_phase_frequency_deviation_diagnostic": 0.002545152117456605,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 75,
+          "helicity": 1,
+          "energy_drift": 2.9753977059954195e-14,
+          "max_gauss_relative": 1.5091576265485775e-14,
+          "field_L2_error": 0.12885556876905696,
+          "velocity_error": 0.0055337982503228895,
+          "momentum_over_energy": 0.9502451478231276,
+          "reconstructed_spectral_helicity": 0.9862299821415967,
+          "packet_phase_frequency_deviation_diagnostic": 0.0022327190329680456,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 75,
+          "helicity": -1,
+          "energy_drift": 2.9753977059954195e-14,
+          "max_gauss_relative": 1.5091576265485775e-14,
+          "field_L2_error": 0.12885556876905696,
+          "velocity_error": 0.0055337982503228895,
+          "momentum_over_energy": 0.9502451478231276,
+          "reconstructed_spectral_helicity": -0.9862299821415967,
+          "packet_phase_frequency_deviation_diagnostic": 0.0022327190329680456,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": 1,
+          "energy_drift": 4.035660694512444e-13,
+          "max_gauss_relative": 1.4909934407510665e-14,
+          "field_L2_error": 0.12711572777321123,
+          "velocity_error": 0.004657396102939298,
+          "momentum_over_energy": 0.950144422663817,
+          "reconstructed_spectral_helicity": 0.9861887477653777,
+          "packet_phase_frequency_deviation_diagnostic": 0.002082290833402673,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": -1,
+          "energy_drift": 4.035660694512444e-13,
+          "max_gauss_relative": 1.4909934407510665e-14,
+          "field_L2_error": 0.12711572777321123,
+          "velocity_error": 0.004657396102939298,
+          "momentum_over_energy": 0.950144422663817,
+          "reconstructed_spectral_helicity": -0.9861887477653777,
+          "packet_phase_frequency_deviation_diagnostic": 0.002082290833402673,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        }
+      ],
+      "helicity_diagnostics": [
+        {
+          "angle": 45,
+          "h_plus": 0.9863318331906022,
+          "h_minus": -0.9863318331906022,
+          "helicity_absolute_error": 0.013668166809397753,
+          "continuum_longitudinal_fraction_diagnostic": 0.0012339035405774309,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 60,
+          "h_plus": 0.9862971427318168,
+          "h_minus": -0.9862971427318168,
+          "helicity_absolute_error": 0.01370285726818321,
+          "continuum_longitudinal_fraction_diagnostic": 0.001261790048164892,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 75,
+          "h_plus": 0.9862299821415967,
+          "h_minus": -0.9862299821415967,
+          "helicity_absolute_error": 0.01377001785840326,
+          "continuum_longitudinal_fraction_diagnostic": 0.0013779108526294468,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 90,
+          "h_plus": 0.9861887477653777,
+          "h_minus": -0.9861887477653777,
+          "helicity_absolute_error": 0.013811252234622318,
+          "continuum_longitudinal_fraction_diagnostic": 0.0015001834735427976,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        }
+      ],
+      "elapsed_seconds": 108.98764962299992
+    },
+    {
+      "ppw": 24,
+      "cases": [
+        {
+          "angle": 45,
+          "helicity": 1,
+          "energy_drift": 1.304512053934559e-13,
+          "max_gauss_relative": 2.0166950385700723e-14,
+          "field_L2_error": 0.09805823805415759,
+          "velocity_error": 0.004935825230706989,
+          "momentum_over_energy": 0.9517473836443573,
+          "reconstructed_spectral_helicity": 0.993347964804691,
+          "packet_phase_frequency_deviation_diagnostic": 0.0017582217924982891,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 45,
+          "helicity": -1,
+          "energy_drift": 1.304512053934559e-13,
+          "max_gauss_relative": 2.0166950385700723e-14,
+          "field_L2_error": 0.09805823805415759,
+          "velocity_error": 0.004935825230706989,
+          "momentum_over_energy": 0.9517473836443573,
+          "reconstructed_spectral_helicity": -0.993347964804691,
+          "packet_phase_frequency_deviation_diagnostic": 0.0017582217924982891,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": 1,
+          "energy_drift": 7.682743330406083e-14,
+          "max_gauss_relative": 2.0326621108885988e-14,
+          "field_L2_error": 0.0970228441978241,
+          "velocity_error": 0.004571620124620906,
+          "momentum_over_energy": 0.9516750658199807,
+          "reconstructed_spectral_helicity": 0.9933323755301764,
+          "packet_phase_frequency_deviation_diagnostic": 0.0016530205044764056,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": -1,
+          "energy_drift": 7.682743330406083e-14,
+          "max_gauss_relative": 2.0326621108885988e-14,
+          "field_L2_error": 0.0970228441978241,
+          "velocity_error": 0.004571620124620906,
+          "momentum_over_energy": 0.9516750658199807,
+          "reconstructed_spectral_helicity": -0.9933323755301764,
+          "packet_phase_frequency_deviation_diagnostic": 0.0016530205044764056,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 75,
+          "helicity": 1,
+          "energy_drift": 4.000133557724439e-13,
+          "max_gauss_relative": 2.0239096307728646e-14,
+          "field_L2_error": 0.09493593651784082,
+          "velocity_error": 0.0036104786737873175,
+          "momentum_over_energy": 0.9515387136481704,
+          "reconstructed_spectral_helicity": 0.9932835600446934,
+          "packet_phase_frequency_deviation_diagnostic": 0.0014390914895939175,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 75,
+          "helicity": -1,
+          "energy_drift": 4.000133557724439e-13,
+          "max_gauss_relative": 2.0239096307728646e-14,
+          "field_L2_error": 0.09493593651784082,
+          "velocity_error": 0.0036104786737873175,
+          "momentum_over_energy": 0.9515387136481704,
+          "reconstructed_spectral_helicity": -0.9932835600446934,
+          "packet_phase_frequency_deviation_diagnostic": 0.0014390914895939175,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": 1,
+          "energy_drift": 4.3298697960381105e-13,
+          "max_gauss_relative": 2.053199425851244e-14,
+          "field_L2_error": 0.09393215234013914,
+          "velocity_error": 0.0029548953393076284,
+          "momentum_over_energy": 0.951483684710618,
+          "reconstructed_spectral_helicity": 0.9932590265760114,
+          "packet_phase_frequency_deviation_diagnostic": 0.0013311823112207406,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": -1,
+          "energy_drift": 4.3298697960381105e-13,
+          "max_gauss_relative": 2.053199425851244e-14,
+          "field_L2_error": 0.09393215234013914,
+          "velocity_error": 0.0029548953393076284,
+          "momentum_over_energy": 0.951483684710618,
+          "reconstructed_spectral_helicity": -0.9932590265760114,
+          "packet_phase_frequency_deviation_diagnostic": 0.0013311823112207406,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        }
+      ],
+      "helicity_diagnostics": [
+        {
+          "angle": 45,
+          "h_plus": 0.993347964804691,
+          "h_minus": -0.993347964804691,
+          "helicity_absolute_error": 0.006652035195308992,
+          "continuum_longitudinal_fraction_diagnostic": 0.0008254283064164016,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 60,
+          "h_plus": 0.9933323755301764,
+          "h_minus": -0.9933323755301764,
+          "helicity_absolute_error": 0.006667624469823608,
+          "continuum_longitudinal_fraction_diagnostic": 0.0008295876397363816,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 75,
+          "h_plus": 0.9932835600446934,
+          "h_minus": -0.9932835600446934,
+          "helicity_absolute_error": 0.0067164399553065746,
+          "continuum_longitudinal_fraction_diagnostic": 0.0008749633007018453,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 90,
+          "h_plus": 0.9932590265760114,
+          "h_minus": -0.9932590265760114,
+          "helicity_absolute_error": 0.0067409734239886054,
+          "continuum_longitudinal_fraction_diagnostic": 0.0009475379400498605,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        }
+      ],
+      "elapsed_seconds": 192.35616001999983
+    },
+    {
+      "ppw": 32,
+      "cases": [
+        {
+          "angle": 45,
+          "helicity": 1,
+          "energy_drift": 8.150147223773274e-13,
+          "max_gauss_relative": 3.2845083776203886e-14,
+          "field_L2_error": 0.062492723947185774,
+          "velocity_error": 0.0024326823593863586,
+          "momentum_over_energy": 0.9529352924572161,
+          "reconstructed_spectral_helicity": 0.997732548279295,
+          "packet_phase_frequency_deviation_diagnostic": 0.0008600483334982903,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 45,
+          "helicity": -1,
+          "energy_drift": 8.150147223773274e-13,
+          "max_gauss_relative": 3.2845083776203886e-14,
+          "field_L2_error": 0.062492723947185774,
+          "velocity_error": 0.0024326823593863586,
+          "momentum_over_energy": 0.9529352924572161,
+          "reconstructed_spectral_helicity": -0.997732548279295,
+          "packet_phase_frequency_deviation_diagnostic": 0.0008600483334982903,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": 1,
+          "energy_drift": 3.1752378504279477e-13,
+          "max_gauss_relative": 3.314211105634774e-14,
+          "field_L2_error": 0.06205378504287505,
+          "velocity_error": 0.002201686307621233,
+          "momentum_over_energy": 0.9529048776965751,
+          "reconstructed_spectral_helicity": 0.9977069167046169,
+          "packet_phase_frequency_deviation_diagnostic": 0.0007976829219097153,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 60,
+          "helicity": -1,
+          "energy_drift": 3.1752378504279477e-13,
+          "max_gauss_relative": 3.314211105634774e-14,
+          "field_L2_error": 0.06205378504287505,
+          "velocity_error": 0.002201686307621233,
+          "momentum_over_energy": 0.9529048776965751,
+          "reconstructed_spectral_helicity": -0.9977069167046169,
+          "packet_phase_frequency_deviation_diagnostic": 0.0007976829219097153,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": true,
+            "helicity": true
+          },
+          "passed_executed_checks": true
+        },
+        {
+          "angle": 75,
+          "helicity": 1,
+          "energy_drift": 4.816147480823929e-13,
+          "max_gauss_relative": 3.285571272460233e-14,
+          "field_L2_error": 0.06118640365730122,
+          "velocity_error": 0.0016594329562917304,
+          "momentum_over_energy": 0.9528545193607331,
+          "reconstructed_spectral_helicity": 0.9976691794603233,
+          "packet_phase_frequency_deviation_diagnostic": 0.0006700218453750276,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 75,
+          "helicity": -1,
+          "energy_drift": 4.816147480823929e-13,
+          "max_gauss_relative": 3.285571272460233e-14,
+          "field_L2_error": 0.06118640365730122,
+          "velocity_error": 0.0016594329562917304,
+          "momentum_over_energy": 0.9528545193607331,
+          "reconstructed_spectral_helicity": -0.9976691794603233,
+          "packet_phase_frequency_deviation_diagnostic": 0.0006700218453750276,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": 1,
+          "energy_drift": 3.3786307085392764e-12,
+          "max_gauss_relative": 3.3166016434407023e-14,
+          "field_L2_error": 0.06078507604882216,
+          "velocity_error": 0.0013227087624831505,
+          "momentum_over_energy": 0.9528237618978868,
+          "reconstructed_spectral_helicity": 0.9976545936332952,
+          "packet_phase_frequency_deviation_diagnostic": 0.0006070463582181587,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        },
+        {
+          "angle": 90,
+          "helicity": -1,
+          "energy_drift": 3.3786307085392764e-12,
+          "max_gauss_relative": 3.3166016434407023e-14,
+          "field_L2_error": 0.06078507604882216,
+          "velocity_error": 0.0013227087624831505,
+          "momentum_over_energy": 0.9528237618978868,
+          "reconstructed_spectral_helicity": -0.9976545936332952,
+          "packet_phase_frequency_deviation_diagnostic": 0.0006070463582181587,
+          "checks": {
+            "gauss": true,
+            "energy": true,
+            "terminal_field_L2": true,
+            "envelope_velocity": true,
+            "momentum_energy": true,
+            "boundary_control": false,
+            "helicity": true
+          },
+          "passed_executed_checks": false
+        }
+      ],
+      "helicity_diagnostics": [
+        {
+          "angle": 45,
+          "h_plus": 0.997732548279295,
+          "h_minus": -0.997732548279295,
+          "helicity_absolute_error": 0.0022674517207049716,
+          "continuum_longitudinal_fraction_diagnostic": 0.0004205322133842254,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 60,
+          "h_plus": 0.9977069167046169,
+          "h_minus": -0.9977069167046169,
+          "helicity_absolute_error": 0.002293083295383136,
+          "continuum_longitudinal_fraction_diagnostic": 0.00041638108844298255,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 75,
+          "h_plus": 0.9976691794603233,
+          "h_minus": -0.9976691794603233,
+          "helicity_absolute_error": 0.0023308205396767034,
+          "continuum_longitudinal_fraction_diagnostic": 0.00042666335187061444,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        },
+        {
+          "angle": 90,
+          "h_plus": 0.9976545936332952,
+          "h_minus": -0.9976545936332952,
+          "helicity_absolute_error": 0.002345406366704772,
+          "continuum_longitudinal_fraction_diagnostic": 0.00045445652094439494,
+          "longitudinal_note": "continuum FFT diagnostic of reconstructed E; not the discrete Gauss constraint"
+        }
+      ],
+      "elapsed_seconds": 414.76146609600005
+    }
+  ],
+  "spatial_comparison": [
+    {
+      "angle": 45,
+      "helicity": 1,
+      "errors": [
+        0.1344315670512462,
+        0.09805823805415759,
+        0.062492723947185774
+      ],
+      "passed": true
+    },
+    {
+      "angle": 45,
+      "helicity": -1,
+      "errors": [
+        0.1344315670512462,
+        0.09805823805415759,
+        0.062492723947185774
+      ],
+      "passed": true
+    },
+    {
+      "angle": 60,
+      "helicity": 1,
+      "errors": [
+        0.13252786574091957,
+        0.0970228441978241,
+        0.06205378504287505
+      ],
+      "passed": true
+    },
+    {
+      "angle": 60,
+      "helicity": -1,
+      "errors": [
+        0.13252786574091957,
+        0.0970228441978241,
+        0.06205378504287505
+      ],
+      "passed": true
+    },
+    {
+      "angle": 75,
+      "helicity": 1,
+      "errors": [
+        0.12885556876905696,
+        0.09493593651784082,
+        0.06118640365730122
+      ],
+      "passed": true
+    },
+    {
+      "angle": 75,
+      "helicity": -1,
+      "errors": [
+        0.12885556876905696,
+        0.09493593651784082,
+        0.06118640365730122
+      ],
+      "passed": true
+    },
+    {
+      "angle": 90,
+      "helicity": 1,
+      "errors": [
+        0.12711572777321123,
+        0.09393215234013914,
+        0.06078507604882216
+      ],
+      "passed": true
+    },
+    {
+      "angle": 90,
+      "helicity": -1,
+      "errors": [
+        0.12711572777321123,
+        0.09393215234013914,
+        0.06078507604882216
+      ],
+      "passed": true
+    }
+  ],
+  "failed_cases": [
+    {
+      "ppw": 20,
+      "angle": 75,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 20,
+      "angle": 75,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 20,
+      "angle": 90,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 20,
+      "angle": 90,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 24,
+      "angle": 75,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 24,
+      "angle": 75,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 24,
+      "angle": 90,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 24,
+      "angle": 90,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 32,
+      "angle": 75,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 32,
+      "angle": 75,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 32,
+      "angle": 90,
+      "helicity": 1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    },
+    {
+      "ppw": 32,
+      "angle": 90,
+      "helicity": -1,
+      "failed_checks": [
+        "boundary_control"
+      ]
+    }
+  ],
+  "GATE_DELAUNAY_FREE": "FAIL",
+  "GATE_MAXWELL_EQUIVALENCE": "PENDING: failed full boundary-controlled free gate",
+  "GATE_HRF_CAP2": "PENDING",
+  "notes": "h=-1 differs only by the sign of the vertical sector; same dynamics, energies and XY flux. Both helicities reconstructed from sector linearity, not 48 independent integrations. Packet phase deviation is not a completed omega(k) dispersion test.",
+  "uncompleted_required_controls": [
+    "full HRF mode/symmetry equivalence",
+    "boundary-converged full-resolution free suite after box12 failure",
+    "full-field temporal acceptance after failed ratio"
+  ],
+  "cavity": "NOT_EXECUTED: free injection gate has not passed",
+  "long_stages": {
+    "150": "NOT_EXECUTED: prior gates have not passed",
+    "300": "NOT_EXECUTED: prior gates have not passed",
+    "500": "NOT_EXECUTED: prior gates have not passed"
+  },
+  "independent_temporal_control": {
+    "dt": [
+      0.018,
+      0.009,
+      0.0045
+    ],
+    "ratios": [
+      1.8699138462426728,
+      1.8502053392621831,
+      1.8371735697581315,
+      1.8278995531537683
+    ],
+    "differences": [
+      [
+        3.4146916169247205e-05,
+        3.413961539324261e-05,
+        3.4059571193539983e-05,
+        3.3996870691037604e-05
+      ],
+      [
+        1.8261224300713426e-05,
+        1.8451798116017035e-05,
+        1.8539114514925235e-05,
+        1.8598872477637555e-05
+      ]
+    ],
+    "passed": false,
+    "fixed_mesh_ppw": 20,
+    "same_seed_and_initial_conditions": true,
+    "note": "Compared derived complex64 terminal fields in double precision; result includes storage error."
+  },
+  "dispersion_control": {
+    "runs": [
+      {
+        "ppw": 20,
+        "probe_time_window": [
+          0,
+          0.8999999999999999
+        ],
+        "cases": [
+          {
+            "angle": 45,
+            "k_bin_magnitude": 5.923843917544487,
+            "omega_A_phase": 5.924479707512568,
+            "omega_B_phase": 5.947996941227532,
+            "relative_error_A": 0.00010732726535866988,
+            "relative_error_B": 0.004077255244945288,
+            "relative_sector_split": 0.003969927979586614,
+            "passed": true
+          },
+          {
+            "angle": 60,
+            "k_bin_magnitude": 6.106158545427159,
+            "omega_A_phase": 6.105336416395818,
+            "omega_B_phase": 6.130912117141869,
+            "relative_error_A": 0.00013463931950430386,
+            "relative_error_B": 0.004053869798917642,
+            "relative_sector_split": 0.004188509118421876,
+            "passed": true
+          },
+          {
+            "angle": 75,
+            "k_bin_magnitude": 6.476559171707596,
+            "omega_A_phase": 6.471089745998522,
+            "omega_B_phase": 6.501686643923843,
+            "relative_error_A": 0.0008444955977499058,
+            "relative_error_B": 0.0038797564493837644,
+            "relative_sector_split": 0.004724252047133634,
+            "passed": true
+          },
+          {
+            "angle": 90,
+            "k_bin_magnitude": 6.283185307179586,
+            "omega_A_phase": 6.276631127068351,
+            "omega_B_phase": 6.304776736987153,
+            "relative_error_A": 0.0010431301626177003,
+            "relative_error_B": 0.003436382782295855,
+            "relative_sector_split": 0.004479512944913617,
+            "passed": true
+          }
+        ],
+        "phase_A": [
+          [
+            3.238494612978121e-05,
+            1.892836473304947e-05,
+            -1.0332103193761838e-06,
+            6.3849690270365e-06
+          ],
+          [
+            -0.5333387332970283,
+            -0.5495251998201909,
+            -0.5821065075788375,
+            -0.5644873297389872
+          ],
+          [
+            -1.0665528704058227,
+            -1.0990107665086875,
+            -1.1645423392005894,
+            -1.1294093720826304
+          ],
+          [
+            -1.5996084131545145,
+            -1.648437606032339,
+            -1.74723759322248,
+            -1.6946958153327407
+          ],
+          [
+            -2.1326672998702905,
+            -2.1978691477139654,
+            -2.3298063026172047,
+            -2.25986413823564
+          ],
+          [
+            -2.6658878092964335,
+            -2.747363219566899,
+            -2.912014818279334,
+            -2.8245672301593436
+          ],
+          [
+            -3.199261285918682,
+            -3.296909021196687,
+            -3.494064356147496,
+            -3.3889913310967876
+          ],
+          [
+            -3.732621002394973,
+            -3.8464389239417054,
+            -4.076347212462742,
+            -3.9536418314825856
+          ],
+          [
+            -4.26581490543622,
+            -4.395902453653772,
+            -4.6589728093482705,
+            -4.518765104618966
+          ],
+          [
+            -4.798863031966361,
+            -4.945321491379268,
+            -5.241634857266584,
+            -5.084065397301254
+          ],
+          [
+            -5.33193694306919,
+            -5.494766628704382,
+            -5.823982310046421,
+            -5.649043508022528
+          ]
+        ],
+        "phase_B": [
+          [
+            5.435326872913885e-05,
+            3.096621176625953e-05,
+            2.0576091165197873e-06,
+            1.4338089216187329e-05
+          ],
+          [
+            -0.5374126093960694,
+            -0.5539859201627462,
+            -0.5874055627802605,
+            -0.5693791555462084
+          ],
+          [
+            -1.0727912901610988,
+            -1.1057321366837773,
+            -1.172281788684967,
+            -1.1366810275577737
+          ],
+          [
+            -1.6061752374144695,
+            -1.655444895113542,
+            -1.7552022667442826,
+            -1.7022295707984028
+          ],
+          [
+            -2.139707453480777,
+            -2.2055701007308968,
+            -2.339104837953141,
+            -2.2683704220364285
+          ],
+          [
+            -2.675382143541713,
+            -2.75810384676605,
+            -2.9257346160733904,
+            -2.8367686566281503
+          ],
+          [
+            -3.2129738848901064,
+            -3.3124063606313463,
+            -3.513515097738786,
+            -3.4064900184144307
+          ],
+          [
+            -3.750243491284145,
+            -3.8658668839099897,
+            -4.099439175180425,
+            -3.9750503677752977
+          ],
+          [
+            -4.285292459715102,
+            -4.4168159544376255,
+            -4.6827909149431095,
+            -4.541325501838327
+          ],
+          [
+            -4.8185486649128935,
+            -4.96634715064496,
+            -5.265973982704348,
+            -5.1068238628781595
+          ],
+          [
+            -5.3522894563861865,
+            -5.517099703192386,
+            -5.851600470334352,
+            -5.673948912645096
+          ]
+        ],
+        "times": [
+          0.0,
+          0.09,
+          0.18,
+          0.26999999999999996,
+          0.36,
+          0.44999999999999996,
+          0.5399999999999999,
+          0.63,
+          0.72,
+          0.8099999999999999,
+          0.8999999999999999
+        ]
+      },
+      {
+        "ppw": 24,
+        "probe_time_window": [
+          0,
+          0.8999999999999999
+        ],
+        "cases": [
+          {
+            "angle": 45,
+            "k_bin_magnitude": 5.923843917544487,
+            "omega_A_phase": 5.9238536766337795,
+            "omega_B_phase": 5.940238354515618,
+            "relative_error_A": 1.6474251225417902e-06,
+            "relative_error_B": 0.002767533581122139,
+            "relative_sector_split": 0.0027658861559995054,
+            "passed": true
+          },
+          {
+            "angle": 60,
+            "k_bin_magnitude": 6.106158545427159,
+            "omega_A_phase": 6.105128578473309,
+            "omega_B_phase": 6.1229798690293595,
+            "relative_error_A": 0.00016867674597498272,
+            "relative_error_B": 0.002754812780745297,
+            "relative_sector_split": 0.002923489526720407,
+            "passed": true
+          },
+          {
+            "angle": 75,
+            "k_bin_magnitude": 6.476559171707596,
+            "omega_A_phase": 6.47222702962043,
+            "omega_B_phase": 6.493517256401885,
+            "relative_error_A": 0.0006688956237890231,
+            "relative_error_B": 0.0026183787169535844,
+            "relative_sector_split": 0.003287274340742584,
+            "passed": true
+          },
+          {
+            "angle": 90,
+            "k_bin_magnitude": 6.283185307179586,
+            "omega_A_phase": 6.278119527801178,
+            "omega_B_phase": 6.29762834582118,
+            "relative_error_A": 0.0008062438286866591,
+            "relative_error_B": 0.0022986809930769514,
+            "relative_sector_split": 0.0031049248217635667,
+            "passed": true
+          }
+        ],
+        "phase_A": [
+          [
+            2.0553081694965328e-06,
+            1.703422386905577e-06,
+            1.824997637754597e-05,
+            -1.1994160729581162e-06
+          ],
+          [
+            -0.5332614269645131,
+            -0.5494954026323922,
+            -0.5822660519207827,
+            -0.5647382444704395
+          ],
+          [
+            -1.0664125614034357,
+            -1.0989541899688782,
+            -1.1647882272159737,
+            -1.1297809427266918
+          ],
+          [
+            -1.5994540405221007,
+            -1.6483785400781057,
+            -1.7474974063861675,
+            -1.695086320304742
+          ],
+          [
+            -2.132501752388598,
+            -2.1978104158532017,
+            -2.3301173467704785,
+            -2.260310862980325
+          ],
+          [
+            -2.6656651370969477,
+            -2.7472841930347003,
+            -2.9124810877474285,
+            -2.825205076419624
+          ],
+          [
+            -3.1989341270654594,
+            -3.2967891626171806,
+            -3.4947329155567157,
+            -3.389899627092191
+          ],
+          [
+            -3.732189515227833,
+            -3.846281258132464,
+            -4.077153663311349,
+            -3.954755087418084
+          ],
+          [
+            -4.265326220990287,
+            -4.395731121154534,
+            -4.6598211376752126,
+            -4.519948894945929
+          ],
+          [
+            -4.798361963713484,
+            -4.945156104143297,
+            -5.242515692267195,
+            -5.085271283810933
+          ],
+          [
+            -5.331418934457759,
+            -5.49460132546011,
+            -5.824986193592081,
+            -5.650365401990759
+          ]
+        ],
+        "phase_B": [
+          [
+            1.794657321955254e-05,
+            1.3930329218021738e-05,
+            2.7477017050948427e-05,
+            -1.5620944774417887e-07
+          ],
+          [
+            -0.5360897267173235,
+            -0.5525829574258957,
+            -0.5859253019691293,
+            -0.5681204047752438
+          ],
+          [
+            -1.070751580751855,
+            -1.1036194241589203,
+            -1.1701505743225644,
+            -1.134813275032428
+          ],
+          [
+            -1.604024358505511,
+            -1.6532503746034033,
+            -1.7530243782224555,
+            -1.7003036234002527
+          ],
+          [
+            -2.1374020553397086,
+            -2.2031674638426706,
+            -2.336564397546453,
+            -2.2662005623589145
+          ],
+          [
+            -2.672267181112565,
+            -2.7547490459301005,
+            -2.9219817691220245,
+            -2.8336460534935477
+          ],
+          [
+            -3.208466403574727,
+            -3.3075584780038176,
+            -3.508210320355594,
+            -3.402004021665635
+          ],
+          [
+            -3.7444491112596685,
+            -3.8598002908776556,
+            -4.093187488803985,
+            -3.969579574274575
+          ],
+          [
+            -4.278894989423745,
+            -4.410311747988084,
+            -4.676388695331243,
+            -4.5355871250500375
+          ],
+          [
+            -4.812082223234961,
+            -4.959829774463607,
+            -5.259450456190603,
+            -5.101052923526453
+          ],
+          [
+            -5.345591182201792,
+            -5.510175193079317,
+            -5.844179265881856,
+            -5.6676228837127764
+          ]
+        ],
+        "times": [
+          0.0,
+          0.09,
+          0.18,
+          0.26999999999999996,
+          0.36,
+          0.44999999999999996,
+          0.5399999999999999,
+          0.63,
+          0.72,
+          0.8099999999999999,
+          0.8999999999999999
+        ]
+      },
+      {
+        "ppw": 32,
+        "probe_time_window": [
+          0,
+          0.8999999999999999
+        ],
+        "cases": [
+          {
+            "angle": 45,
+            "k_bin_magnitude": 5.923843917544487,
+            "omega_A_phase": 5.923301455729026,
+            "omega_B_phase": 5.932628123066802,
+            "relative_error_A": 9.157260437842041e-05,
+            "relative_error_B": 0.0014828556667907389,
+            "relative_sector_split": 0.001574428271169221,
+            "passed": true
+          },
+          {
+            "angle": 60,
+            "k_bin_magnitude": 6.106158545427159,
+            "omega_A_phase": 6.104955296802661,
+            "omega_B_phase": 6.115072108926963,
+            "relative_error_A": 0.00019705492668531388,
+            "relative_error_B": 0.0014597661415913787,
+            "relative_sector_split": 0.0016568210682767848,
+            "passed": true
+          },
+          {
+            "angle": 75,
+            "k_bin_magnitude": 6.476559171707596,
+            "omega_A_phase": 6.473346220391069,
+            "omega_B_phase": 6.485353146697679,
+            "relative_error_A": 0.000496089239879427,
+            "relative_error_B": 0.0013578158952827213,
+            "relative_sector_split": 0.0018539051351620524,
+            "passed": true
+          },
+          {
+            "angle": 90,
+            "k_bin_magnitude": 6.283185307179586,
+            "omega_A_phase": 6.279612315567082,
+            "omega_B_phase": 6.2906088872718975,
+            "relative_error_A": 0.0005686592767559784,
+            "relative_error_B": 0.0011814994671299761,
+            "relative_sector_split": 0.0017501587438858565,
+            "passed": true
+          }
+        ],
+        "phase_A": [
+          [
+            2.590618276414184e-07,
+            -3.378393766287216e-06,
+            -8.331768405700324e-06,
+            -1.1668171293717233e-05
+          ],
+          [
+            -0.5331700331743012,
+            -0.5494775481016436,
+            -0.5824936707285676,
+            -0.5650153050226251
+          ],
+          [
+            -1.0662702076769164,
+            -1.0989235480826487,
+            -1.1651072101348539,
+            -1.130187294796372
+          ],
+          [
+            -1.5993022479793817,
+            -1.6483436827445326,
+            -1.7478232521592452,
+            -1.6955047282367604
+          ],
+          [
+            -2.132338388362987,
+            -2.1977684340306998,
+            -2.330491870384976,
+            -2.2607778599096315
+          ],
+          [
+            -2.6654464803873754,
+            -2.7472232170503585,
+            -2.913020442138732,
+            -2.825868099707733
+          ],
+          [
+            -3.198619855421155,
+            -3.296700648269155,
+            -3.4954857720611776,
+            -3.390847123217255
+          ],
+          [
+            -3.73178412514422,
+            -3.846168574051481,
+            -4.078041087686193,
+            -3.955914540480916
+          ],
+          [
+            -4.264874019156856,
+            -4.395605100050945,
+            -4.660730636233746,
+            -4.521168959499209
+          ],
+          [
+            -4.79790082107403,
+            -4.945022456364848,
+            -5.243436104036217,
+            -5.0864945967938
+          ],
+          [
+            -5.330940661796328,
+            -5.494453608901023,
+            -5.826019931291249,
+            -5.651693843196288
+          ]
+        ],
+        "phase_B": [
+          [
+            -3.836354390229875e-06,
+            -1.4174651895689682e-05,
+            -2.0127088143063414e-05,
+            -1.8873682079030186e-05
+          ],
+          [
+            -0.5347909039283091,
+            -0.5512466948024626,
+            -0.5845766929097552,
+            -0.566930091981756
+          ],
+          [
+            -1.0687517440497247,
+            -1.1015877139484123,
+            -1.1681498431677482,
+            -1.1330321350102448
+          ],
+          [
+            -1.6019161431857272,
+            -1.6511234154942236,
+            -1.7509559816127576,
+            -1.698452311347553
+          ],
+          [
+            -2.135138174414551,
+            -2.2008203659702352,
+            -2.334142875071295,
+            -2.264102762812553
+          ],
+          [
+            -2.669211152215932,
+            -2.751468508899998,
+            -2.9183969433021306,
+            -2.8306313439124975
+          ],
+          [
+            -3.204048622643639,
+            -3.302818705115571,
+            -3.503108451140732,
+            -3.3976766582102624
+          ],
+          [
+            -3.738769018133624,
+            -3.8538505597988935,
+            -4.087109815446521,
+            -3.9642811277079826
+          ],
+          [
+            -4.272612086485116,
+            -4.403893841683392,
+            -4.670099801521051,
+            -4.529997133256151
+          ],
+          [
+            -4.805728592931148,
+            -4.953360849748075,
+            -5.2530042844706815,
+            -5.0953997957893264
+          ],
+          [
+            -5.339017923738176,
+            -5.50329142417887,
+            -5.836852660541432,
+            -5.661423402863123
+          ]
+        ],
+        "times": [
+          0.0,
+          0.09,
+          0.18,
+          0.26999999999999996,
+          0.36,
+          0.44999999999999996,
+          0.5399999999999999,
+          0.63,
+          0.72,
+          0.8099999999999999,
+          0.8999999999999999
+        ]
+      }
+    ],
+    "passed": true,
+    "limit": "finite packet frequency probes, not a complete eigenmode dispersion surface"
+  },
+  "larger_box_diagnosis": {
+    "box": 16,
+    "ppw": 20,
+    "terminal_boundary_energy_fraction": [
+      7.822067739987524e-11,
+      7.058864029830805e-11,
+      2.1207298179163775e-10,
+      4.3390544274683924e-10
+    ],
+    "terminal_L2": [
+      0.13468611786065693,
+      0.13239800796113363,
+      0.12819467954923303,
+      0.12620273054499093
+    ],
+    "scope": "Diagnosis only; does not replace original pre-registered box12 gate or establish finest-mesh boundary convergence."
+  },
+  "failed_required_controls": [
+    "original box12 exterior-margin control",
+    "independent full-field temporal order ratio"
+  ]
+}
