@@ -1,0 +1,11 @@
+{
+  "problem": "Original runner parsed a # comment header as a hash entry, causing FileNotFoundError before scientific imports or covariance computation.",
+  "correction": "Separate execution copy skips blank and # comment lines; comparator source-hash reader corrected identically. Scientific source ZIP and all 18 registered files unchanged.",
+  "failed_run": 37875506607,
+  "failed_commit": "354b8ce1c1aa235eb6437259074d07cd405e20d0",
+  "original_runner_sha256": "3dc2f779c39e9b4a66d68990d19b0dfeab2cac3d3a39ab2b12a40361805cc7a6",
+  "fixed_runner_sha256": "82c0c49438929ddde8db5603a3419ff1160c3dfcbb236a856ce7d31d95f771ea",
+  "manifest_entries_verified": 18,
+  "changed_physics": false,
+  "changed_thresholds": false
+}

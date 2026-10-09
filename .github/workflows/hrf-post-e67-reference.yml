@@ -44,7 +44,7 @@ jobs:
       - name: Recompute seven original cases serially and measure resources
         run: |
           set -o pipefail
-          /usr/bin/time -v -o reference_resources.txt python -u run_reference_cloud.py 2>&1 | tee reference_console.txt
+          /usr/bin/time -v -o reference_resources.txt python -u run_reference_cloud_fixed.py 2>&1 | tee reference_console.txt
       - name: Compare all raw data and reproduce unchanged decisions
         run: |
           set -o pipefail

@@ -67,7 +67,7 @@ def main():
     hashes = json.loads((OUT / 'source_hashes_after.json').read_text())
     originals = {}
     for line in (FRESH / 'hashes_antes_da_execucao.txt').read_text().splitlines():
-        if line.strip():
+        if line.strip() and not line.lstrip().startswith('#'):
             digest, name = line.split(maxsplit=1); originals[name.lstrip('*')] = digest
     hashes_ok = len(hashes) == len(originals) and all(q['sha256'] == originals[q['path']] for q in hashes)
     ok = all(q['status'] == 'PASS' for q in results) and summary['status'] == 'PASS' and archive_replay['status'] == 'PASS' and exact_decisions and counts == CONFIG['expected_entropy_calls'] and all_nu and hashes_ok
