@@ -1,0 +1,96 @@
+{
+  "archive_sha256": "d29940699b7abda51582963e25350972188bd7b26ed187efe81b3a871c279e1a",
+  "archive_bytes": 450620872,
+  "parts": [
+    {
+      "filename": "HRF_COMPLETO.zip.001",
+      "bytes": 25165824,
+      "sha256": "dd4a87c264d27c43f7ec7ba756ed36d1cad3e741b2b2a9223fb482a5e758cb09"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.002",
+      "bytes": 25165824,
+      "sha256": "ad272b0704bd79df423289c7785ad5b4e7f3073458d2c99b8d6a513fccc80e81"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.003",
+      "bytes": 25165824,
+      "sha256": "cdeb6832a0f17253628f54641b584bf2ee56898c4454376d5432f8067fef1fc9"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.004",
+      "bytes": 25165824,
+      "sha256": "b70d19b468fd3c13029d40fdb0a7347086cd4a51184194fd9449d319eb9b4e84"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.005",
+      "bytes": 25165824,
+      "sha256": "093b77e22fe50fb5b15c54aca411581150483a3737a707971981ab740c6d0045"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.006",
+      "bytes": 25165824,
+      "sha256": "463e1862b7962a226a37d43b7451c908e4fcf87c1faa4976765314255516f836"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.007",
+      "bytes": 25165824,
+      "sha256": "bb3aa599b8a17edadcfcb875e8610f0d10a034521f260ad54c46082b90476aaf"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.008",
+      "bytes": 25165824,
+      "sha256": "33609bfb7c06892ebf2977c357d6fa109ad5f52eddec2b1b88185127dd6d8969"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.009",
+      "bytes": 25165824,
+      "sha256": "7c49bcf3f905a8ea20bc6fdf0eb06a3d170c650071af3289732012b7c8e6a092"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.010",
+      "bytes": 25165824,
+      "sha256": "3670c1420290fa19b33b25321cb7fa8e6b5d9ce98fe8172509178ce04454585d"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.011",
+      "bytes": 25165824,
+      "sha256": "6f0de9434f558ae71bd859c333b116f8980acd4d28c0ce78784f86594b4e8e17"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.012",
+      "bytes": 25165824,
+      "sha256": "aa240ae9a0aa68eb006c5b3c21a92f548a151ec222a7d625c1a409b6fca70683"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.013",
+      "bytes": 25165824,
+      "sha256": "389570104ad8e48e68e4f87de1c30d872c6650ead90741bff7e84691817b581e"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.014",
+      "bytes": 25165824,
+      "sha256": "2b8209a29e81bae2dceb5e8ef70ccb39ed6f6f552628e27dd3718cab5eb7b240"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.015",
+      "bytes": 25165824,
+      "sha256": "796a870d73a19e1dc6629f8fb50218efc4e762e108ab3f46cf1f91441f182db6"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.016",
+      "bytes": 25165824,
+      "sha256": "bc596f448b9cffca95bec5926e9f74245e9230a49d3b1254efba7e3eb6645e3e"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.017",
+      "bytes": 25165824,
+      "sha256": "6a0aff0fedea5df4dc541e0d750c8165391941f50b2a0510ec93c904e28fd071"
+    },
+    {
+      "filename": "HRF_COMPLETO.zip.018",
+      "bytes": 22801864,
+      "sha256": "6c71173d49d5e46860cf452257b8ebd4062583a2fe60e8b5efa58b020b669756"
+    }
+  ]
+}
