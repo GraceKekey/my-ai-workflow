@@ -1,0 +1,743 @@
+{
+  "package_files": [
+    {
+      "path": "PROTOCOLO_EXTENSAO_RASCUNHO_v0_1.md",
+      "sha256": "ed75c1b00e4445e1c53345b5e892927ecd932c79ddc04d971908ba98148e0c00",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "478eebeed923e37870508efa06c99ad9cec6fa7fcf1e3176ca43366922faab99",
+      "matches": true
+    },
+    {
+      "path": "RELATORIO_AUDITORIA_POST_E67_v0_1.md",
+      "sha256": "6c574b1637bc81fa7dce1e800f345d14d744b86887e831f99a17da6e7cd03c72",
+      "matches": true
+    },
+    {
+      "path": "STATUS.json",
+      "sha256": "c04592e25fc563067ceee7d8a051a8b46f964a4c41c1955de482021a20367e1a",
+      "matches": true
+    },
+    {
+      "path": "audit.py",
+      "sha256": "185f49575c9a9dfd62c2a59e879dd9514919da526d6e6b12e6ecc8ddddb913bb",
+      "matches": true
+    },
+    {
+      "path": "audit_output/VL_lobes_exploratory.json",
+      "sha256": "e20feaf9ed652ca2d9344cd2ecb2740c74cbe41177fb8267bc575d0df34ac82e",
+      "matches": true
+    },
+    {
+      "path": "audit_output/VL_selected_radii.csv",
+      "sha256": "74181c2f765d34172122432afe152348ce13f800d56fa7085dfc124124a39fbb",
+      "matches": true
+    },
+    {
+      "path": "audit_output/all_region_nu_archived.json",
+      "sha256": "c5617de544392ef1521454aa446ffff4f17209a646c45760d7cdc5454d773029",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archival_reanalysis.png",
+      "sha256": "c2c2a6d201e27b12cf62b5fd05d061217f02936738dd2ab76ab4921305b6d7b1",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/DECISAO_CONFORME_PROTOCOLO_v0_2.json",
+      "sha256": "303891051f0d7ad7e20b88e7de15b751632ae871bf449ca60d9eafbf972c7dbc",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/LEIA_PRIMEIRO.txt",
+      "sha256": "00f161b8c661ec166ed3829fb0dc1e864456f826d8493925e90cf16e4a85d90c",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/RELATORIO_E67_FINAL_v0_2.md",
+      "sha256": "54c2dd65d166e4c0d072f142d2d0bbdf7d97d5900b04eac10a1578f97be9f950",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/STATUS_FINAL.json",
+      "sha256": "7d0451c512a4f08b8638f304c3a30180b5469990393cf2f577ffee5c6650cf90",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/VERIFICACOES_ESPERADAS.json",
+      "sha256": "d76c0e86e1f7768eb71f5af3d54f362d160571c594ff0294fb4382134b37f680",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/AUDITORIA_FINAL.json",
+      "sha256": "9402234ce0f72c13d778d7926e669f1737f7e4ca2c4e1e801acf55bae57ef3d9",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/HRF_ELETRON_67_PROTOCOLO_2026-10-08_1820-clau.md",
+      "sha256": "fecd54001e93fed43c25b211aabb76cad0d5523b0d71630efc19fbbc8e360361",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/LEIAME_E67.md",
+      "sha256": "7465783cf09d1428a67aba68690135561709ba950fc9adeb5b83724fc48c1115",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/PROVENIENCIA_PRE_EXECUCAO.json",
+      "sha256": "26fa6a07d38b00497697ba1b114d63a99199f1eea1b879fdb76bb903023abe41",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/RELATORIO_E67.md",
+      "sha256": "32c75be0f9a43291b8c219f43c077a5b02494765b571715fc653d1983423d474",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/ambiente.json",
+      "sha256": "78fcce20841ff3a51fb79770174f0dae1942894067b834be65db430bb134b628",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/ambiente_cpu.txt",
+      "sha256": "054ac26e3c43c7cb95d2ed81dc61e0458712a29867a92dde06103a60338e2352",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/ambiente_dependencias.txt",
+      "sha256": "094a8ead68ff5ca8d958811ad02880d3f6776a57e78b8a24659e57663cc8b92e",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/ambiente_memoria.txt",
+      "sha256": "64ebc88dbeb58ba3cb73a26a9c819be15c147892a4e95285af3e0533f6bf7871",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/aperto_4.json",
+      "sha256": "c8a9efd2af6864d6100ef8d1d4754f6b7581bd170067d331683d52c1de18b3f0",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/aperto_5.json",
+      "sha256": "61373618936b614c77e9cee89eb5604a56c1db8fa23aba2a7d0f2af0deb36dab",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/aperto_6.json",
+      "sha256": "819978d0fcbf6f09a6b46fb7c6c5ab28af5150d0232aac1f6f5d9be8d56597f8",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/aperto_7.json",
+      "sha256": "9a6cbb4112eaec7bad386709bf0dcea6bbe69785613052200ee8426b4637ac07",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/padrao_4.json",
+      "sha256": "c554bb47a544456338306fe489368e209d7f0cf04fb65fa2201cc1bd6a3ee025",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/padrao_5.json",
+      "sha256": "64df631572e2da47524d7c6a489d167c43b6bad1e78600244aa3167108ce6371",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/auditoria/vmais_5.json",
+      "sha256": "3bdd837f6a745ea6592ccb97fac699028b7fcde9dc906626396cbb3e6c5be86f",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/build_report.py",
+      "sha256": "e4cc09e2cd2da0fca362dbc13c4f058ba6ddb82984e7ccc7912bd0506abc2da1",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/aperto_4.json",
+      "sha256": "742f257d52ddde50aeeec974557fbbddb8f1eda5b196cedfdd1c3d320ccf1cd8",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/aperto_5.json",
+      "sha256": "3b253c49d7ef45a4b238c8eb5c18dbc1d6eaf19bb44db8f9a09634290e87c753",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/aperto_6.json",
+      "sha256": "e6b8144c3c940e31ef74bf01c934dbc03d8a0b0d22f6df2ed10cc12b705cecd0",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/aperto_7.json",
+      "sha256": "10118fe6865e7ba77ea0ca4fd99c0396fc5ba401ee2a13cd7fbc2cf0f6ac6663",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/padrao_4.json",
+      "sha256": "567fd7c09cea2288dde0c7a522bbe9911d32e47bf0c8a62e69ce3411e9da5f1a",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/padrao_5.json",
+      "sha256": "a045adce57bd032a8227d23073c22757f63b585690f8c48728579a555782088a",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/dados/vmais_5.json",
+      "sha256": "c7ac7d7d0b37e34f0d9497ee9cf7e9014f2ed1aaaed4352d62df7331c7a2c737",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/FUMACA_E67.md",
+      "sha256": "26becc3d45a92909b8b43b4392826bc46352b95f60acc0f4af5c587aaf107759",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/f1.txt",
+      "sha256": "50d4f4b2d0eddd9242fefa01fb9c2d22cb007274c511d213249f596e7086938e",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/f2.txt",
+      "sha256": "a29ed4d620e65b5125fd181fc1ec02b94cf0ed154195f05231317c454f50bfdd",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/f3.txt",
+      "sha256": "1727a489b5d968fcf03c856823a9f4714b6eaf1f29db3503e43124cf0c4d662c",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/f4.txt",
+      "sha256": "d8c32dbf085d66f3a0c093923fa8c8ee0bc44e1d492d68e61f0c55ba0f11c6ab",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/f5.txt",
+      "sha256": "bb977e87de2d48fc71f2b2d86379ca2f4de3ed5081159bec0fa18ffc4affc553",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/fum1.py",
+      "sha256": "9f80ec8884fa2f19176b4dd1f0d1aff949735f115883c0a9d3367d2e0991f6d5",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/fum2.py",
+      "sha256": "72825ca199c251530417ca2140ca5aaaf2f4ab6de4f26a34089621d4d301d557",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/fum3.py",
+      "sha256": "6cde176815131810cb50e9e196160de5e09cde7d015ca1d293ae3bb362db7767",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/fum4.py",
+      "sha256": "3e885b13cbb9da76542a84ee4591e018c6b69c91ef1e98514404320f4a27e56f",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/fumaca/fum5.py",
+      "sha256": "b590f3364e8847bf88981fe198eb10550d4117d664bdb84c26f5f03424b7fda3",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/hashes_antes_da_execucao.txt",
+      "sha256": "9d60bfcf9758e842eff729357b49bbe6a8bcd3e55ef3a85fb6273d4b59d02db4",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/hashes_depois_da_execucao.txt",
+      "sha256": "6503fdbc8db4771b501c97829e762a11ee961e5d8ac206a37c6025dc79b44678",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/log_console.txt",
+      "sha256": "0e5ac7b4e032e2860dcc017f3f493b8dab037571df9f95a61004cd1bc2a06a71",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/requirements-runtime.txt",
+      "sha256": "393d9162235ee3676b301ed71a254a322c488be9c7ac3c4928ec5e23cee085f1",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/requirements.txt",
+      "sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/E67_figuras.png",
+      "sha256": "6d6007aa1d6fe37aaf72bd19d6d048c817735c0fce4be9d30e8f0925ab58d3db",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/E67_perfis.csv",
+      "sha256": "bc5858b064c61c79fdffbe51998c52383b21363b1669d6c4a45c9e140e8dd6b2",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/E67_resumo.json",
+      "sha256": "24eefab4bf465622e6fcbb3386381faaf3ab697ea7d2ff720079b89c269fbb85",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/E67_resumo_JSON_PADRAO.json",
+      "sha256": "ad5dc00593855d39118bdff98e1e230309517ba555c68e19826c50ef9aaa0116",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/E67_sondas.csv",
+      "sha256": "70000475c06861e0da514f190f44dbb1adba29a849eca11c8c9f4f29f856ce77",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/dependencies.log",
+      "sha256": "3929937bb508397c3ecca7c05cf9fb4de3ec323b0607b7c952ab411f422ad412",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/log_execucao.txt",
+      "sha256": "06c1e05dc16c35c145c16a33fac60cc4fda125f306e458160f459742ee12d6e0",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/resultados/saida_avaliacao.txt",
+      "sha256": "e060e04fca0216c6f78299fa826b994fd887f4d0bfaf69dbf3ccfd4bf2048fed",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/run_audited.py",
+      "sha256": "46906a0d1685aa641e294454b43c3f861d426c801cf8382557e77c05c972e318",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/src/avaliar_e67.py",
+      "sha256": "1f0abe0e546898ba998af0a47d5cd5e4a9a8a0eda404b8b593da274f444ec2d1",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/src/e65_holo.py",
+      "sha256": "8dcff36521ed074a9f3bcb8455860d3a3840198cc3ec69a345a568d77168727c",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/src/e67_particula.py",
+      "sha256": "01d69b274891a340bafe716c32df0fd0af82264e1f28cd85164c59cd61972a29",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/execucao_github/src/e67_rodar.py",
+      "sha256": "510058bccdf9a96b8527cf6116a1a4303dd780c3f49f94ca8c76f46475c96e02",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/log_github_actions.txt",
+      "sha256": "16a6688c1a08eb9f8367ff6ff848ddd264a7669a8528271ad71b3e12385bf0b3",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/originais/HRF_ELETRON_67_PACOTE_EXECUCAO_2026-10-08_1825-clau.zip",
+      "sha256": "422c982a0dbbbd95ea9e3be82b77b99653b7ad4976c479fddb3044c751002ee3",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/originais/HRF_ELETRON_67_RESULTADOS_GITHUB.zip",
+      "sha256": "e42b5be5ff95d6785b5a3ad3e5b382ed4a312ca309f25b0fde047bd0f719c131",
+      "matches": true
+    },
+    {
+      "path": "audit_output/archive/workflow_hrf_e67.yml",
+      "sha256": "8756e3d61ccc9de265a4da0bf5f833cb3db6bf56fd8e0559fb381154cdba17b2",
+      "matches": true
+    },
+    {
+      "path": "audit_output/evaluator_comparison.json",
+      "sha256": "277bec064f0b1c930cfee3df3f36a8aa24cac6d0f4a7f6936ac14b1863d76a69",
+      "matches": true
+    },
+    {
+      "path": "audit_output/evaluator_stdout.txt",
+      "sha256": "e060e04fca0216c6f78299fa826b994fd887f4d0bfaf69dbf3ccfd4bf2048fed",
+      "matches": true
+    },
+    {
+      "path": "audit_output/hash_verification.json",
+      "sha256": "426935cfd711a93f25fd5f59b808788b9736b1f05572b700b8db8d68e4176858",
+      "matches": true
+    },
+    {
+      "path": "audit_output/historical_metrics.csv",
+      "sha256": "92c7dd7d154d6164620dd73952aac1ec21a6291e460d4beb514bc0380fa3a8ca",
+      "matches": true
+    },
+    {
+      "path": "audit_output/historical_metrics.json",
+      "sha256": "3eb7db94019a06d9832672b09855e9f5c8e5f7e9c2f0b423cd74f5b571bbe198",
+      "matches": true
+    },
+    {
+      "path": "audit_output/recomputed_summary.json",
+      "sha256": "ad5dc00593855d39118bdff98e1e230309517ba555c68e19826c50ef9aaa0116",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/aperto_4.json",
+      "sha256": "742f257d52ddde50aeeec974557fbbddb8f1eda5b196cedfdd1c3d320ccf1cd8",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/aperto_5.json",
+      "sha256": "3b253c49d7ef45a4b238c8eb5c18dbc1d6eaf19bb44db8f9a09634290e87c753",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/aperto_6.json",
+      "sha256": "e6b8144c3c940e31ef74bf01c934dbc03d8a0b0d22f6df2ed10cc12b705cecd0",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/aperto_7.json",
+      "sha256": "10118fe6865e7ba77ea0ca4fd99c0396fc5ba401ee2a13cd7fbc2cf0f6ac6663",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/padrao_4.json",
+      "sha256": "567fd7c09cea2288dde0c7a522bbe9911d32e47bf0c8a62e69ce3411e9da5f1a",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/padrao_5.json",
+      "sha256": "a045adce57bd032a8227d23073c22757f63b585690f8c48728579a555782088a",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/dados/vmais_5.json",
+      "sha256": "c7ac7d7d0b37e34f0d9497ee9cf7e9014f2ed1aaaed4352d62df7331c7a2c737",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/resultados/E67_resumo.json",
+      "sha256": "24eefab4bf465622e6fcbb3386381faaf3ab697ea7d2ff720079b89c269fbb85",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/src/avaliar_e67.py",
+      "sha256": "1f0abe0e546898ba998af0a47d5cd5e4a9a8a0eda404b8b593da274f444ec2d1",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/src/e65_holo.py",
+      "sha256": "8dcff36521ed074a9f3bcb8455860d3a3840198cc3ec69a345a568d77168727c",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/src/e67_particula.py",
+      "sha256": "01d69b274891a340bafe716c32df0fd0af82264e1f28cd85164c59cd61972a29",
+      "matches": true
+    },
+    {
+      "path": "audit_output/replayed_evaluator/src/e67_rodar.py",
+      "sha256": "510058bccdf9a96b8527cf6116a1a4303dd780c3f49f94ca8c76f46475c96e02",
+      "matches": true
+    },
+    {
+      "path": "audit_output/z_fits_historical.json",
+      "sha256": "e003c08d504a0ab6bb7d234e003e56a0b386fed259641715c321d4f3e3bd11c8",
+      "matches": true
+    },
+    {
+      "path": "originals/E67_results.zip",
+      "sha256": "78bd7580f67c36c3e79f359e0e0641e2df7749924d3128b019fbb74374b6af09",
+      "matches": true
+    },
+    {
+      "path": "originals/E67_source.zip",
+      "sha256": "422c982a0dbbbd95ea9e3be82b77b99653b7ad4976c479fddb3044c751002ee3",
+      "matches": true
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "7ae6bf1d6807ae807cc365637b3cf8dcb43d48870200656862a03f88df134a0a",
+      "matches": true
+    },
+    {
+      "path": "run_reference_cloud.py",
+      "sha256": "3dc2f779c39e9b4a66d68990d19b0dfeab2cac3d3a39ab2b12a40361805cc7a6",
+      "matches": true
+    },
+    {
+      "path": "workflow_reference_template.yml",
+      "sha256": "a4fcf791fca5c70e2a80f801caedc7481fa3f3f3e7ec80d343edd3aafd049eb2",
+      "matches": true
+    }
+  ],
+  "historical_archive_files": [
+    {
+      "path": "DECISAO_CONFORME_PROTOCOLO_v0_2.json",
+      "matches": true
+    },
+    {
+      "path": "LEIA_PRIMEIRO.txt",
+      "matches": true
+    },
+    {
+      "path": "RELATORIO_E67_FINAL_v0_2.md",
+      "matches": true
+    },
+    {
+      "path": "STATUS_FINAL.json",
+      "matches": true
+    },
+    {
+      "path": "VERIFICACOES_ESPERADAS.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/AUDITORIA_FINAL.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/HRF_ELETRON_67_PROTOCOLO_2026-10-08_1820-clau.md",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/LEIAME_E67.md",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/PROVENIENCIA_PRE_EXECUCAO.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/RELATORIO_E67.md",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/ambiente.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/ambiente_cpu.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/ambiente_dependencias.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/ambiente_memoria.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/aperto_4.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/aperto_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/aperto_6.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/aperto_7.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/padrao_4.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/padrao_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/auditoria/vmais_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/build_report.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/aperto_4.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/aperto_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/aperto_6.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/aperto_7.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/padrao_4.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/padrao_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/dados/vmais_5.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/FUMACA_E67.md",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/f1.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/f2.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/f3.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/f4.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/f5.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/fum1.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/fum2.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/fum3.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/fum4.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/fumaca/fum5.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/hashes_antes_da_execucao.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/hashes_depois_da_execucao.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/log_console.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/requirements-runtime.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/requirements.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/E67_figuras.png",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/E67_perfis.csv",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/E67_resumo.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/E67_resumo_JSON_PADRAO.json",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/E67_sondas.csv",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/dependencies.log",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/log_execucao.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/resultados/saida_avaliacao.txt",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/run_audited.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/__pycache__/e65_holo.cpython-312.pyc",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/__pycache__/e67_particula.cpython-312.pyc",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/__pycache__/e67_rodar.cpython-312.pyc",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/avaliar_e67.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/e65_holo.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/e67_particula.py",
+      "matches": true
+    },
+    {
+      "path": "execucao_github/src/e67_rodar.py",
+      "matches": true
+    },
+    {
+      "path": "log_github_actions.txt",
+      "matches": true
+    },
+    {
+      "path": "originais/HRF_ELETRON_67_PACOTE_EXECUCAO_2026-10-08_1825-clau.zip",
+      "matches": true
+    },
+    {
+      "path": "originais/HRF_ELETRON_67_RESULTADOS_GITHUB.zip",
+      "matches": true
+    },
+    {
+      "path": "workflow_hrf_e67.yml",
+      "matches": true
+    }
+  ],
+  "historical_count": 65,
+  "package_count": 95
+}

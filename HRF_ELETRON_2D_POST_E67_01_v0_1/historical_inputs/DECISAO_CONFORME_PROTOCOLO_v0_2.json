@@ -1,0 +1,24 @@
+{
+  "version": "0.2",
+  "measurement_tag": "[M]",
+  "H67": "SIM — regime não linear",
+  "H67_N": "NORMALIZÁVEL",
+  "H67_Z": "PROPORCIONAL",
+  "VL_linearidade": "FAIL",
+  "VL_failing_widths": [
+    7
+  ],
+  "VL_ratio_w7": 1.690267507626554,
+  "VL_registered_range": [
+    2.0,
+    4.5
+  ],
+  "mandatory_protocol_note": "regime não linear",
+  "reason_for_annotation": "Protocol §6 requires this annotation if VL fails. The unchanged original evaluator reports FAIL in its table but omits the annotation from its decision sentence. The annotation completes the report; no thresholds or classifications changed.",
+  "base_controls_all_pass": true,
+  "all_entropy_regions_audit_pass": true,
+  "all_entropy_region_calls": 2207,
+  "nu_min_all_regions": 0.4999999999991239,
+  "original_evaluator_decisions_preserved_at": "execucao_github/resultados/E67_resumo.json",
+  "physical_scope": "Chosen Ryu–Takayanagi-inspired entanglement reconstruction of out-of-plane Gaussian squeezing at t=0; not a physical electron or a certified HRF photon."
+}

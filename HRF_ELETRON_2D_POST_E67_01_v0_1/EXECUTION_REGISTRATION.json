@@ -1,0 +1,63 @@
+{
+  "version": "0.1-reference-repeat",
+  "registered_at": "2026-10-08T23:34:39.474912+00:00",
+  "stage": "A2_A3_B0_REFERENCE_ONLY",
+  "full_covariances_recomputed": true,
+  "full_covariance_matrices_saved": false,
+  "N": [
+    64,
+    74
+  ],
+  "a": 1,
+  "cases": [
+    "aperto_4",
+    "aperto_5",
+    "aperto_6",
+    "aperto_7",
+    "padrao_4",
+    "padrao_5",
+    "vmais_5"
+  ],
+  "r": [
+    0.1,
+    0.25
+  ],
+  "rho_max": 24,
+  "new_networks_executed": false,
+  "spatial_refinement_executed": false,
+  "extension_protocol": "DRAFT_NOT_FROZEN",
+  "dynamics": "PENDING",
+  "raw_data_comparison": {
+    "atol": 1e-09,
+    "rtol": 1e-08,
+    "finite_required": true,
+    "decisions_exact": true,
+    "origin": "proposed reproduction tolerance in supplied draft section 6, fixed prospectively for this new reference repeat"
+  },
+  "archive_replay_comparison": {
+    "atol": 1e-10,
+    "rtol": 1e-10
+  },
+  "historical_decisions_and_thresholds": "UNCHANGED",
+  "expected_entropy_calls": {
+    "aperto_4": 348,
+    "aperto_5": 889,
+    "aperto_6": 345,
+    "aperto_7": 345,
+    "padrao_4": 30,
+    "padrao_5": 30,
+    "vmais_5": 220
+  },
+  "min_nu": 0.499999999,
+  "historical_NaN_allowlist": [
+    "/aperto/w7/0.1/fecho",
+    "/aperto/w7/0.25/fecho",
+    "/validacoes/VF_fecho_aperto/valores/3"
+  ],
+  "package_zip_sha256": "32ff6594be2189a7f6c8111d9f3c88541d8af64b1578ee63fc158ff2784493c0",
+  "package_source_files_unchanged": true,
+  "source_zip_sha256": "422c982a0dbbbd95ea9e3be82b77b99653b7ad4976c479fddb3044c751002ee3",
+  "delivery_zip_sha256": "78bd7580f67c36c3e79f359e0e0641e2df7749924d3128b019fbb74374b6af09",
+  "repository": "GraceKekey/my-ai-workflow",
+  "branch": "hrf/post-e67-reference-20261008"
+}

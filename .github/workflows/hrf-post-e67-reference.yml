@@ -1,0 +1,62 @@
+name: HRF POST E67 full reference reproduction
+run-name: HRF POST E67 A2 A3 full 64x74 reference
+on:
+  push:
+    branches: [hrf/post-e67-reference-20261008]
+    paths:
+      - 'HRF_ELETRON_2D_POST_E67_01_v0_1/**'
+      - '.github/workflows/hrf-post-e67-reference.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: hrf-post-e67-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  reference:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+      PYTHONUNBUFFERED: '1'
+      TZ: America/Sao_Paulo
+    defaults:
+      run:
+        working-directory: HRF_ELETRON_2D_POST_E67_01_v0_1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: HRF_ELETRON_2D_POST_E67_01_v0_1/requirements.txt
+      - name: Verify prospective execution inputs
+        run: sha256sum -c CLOUD_INPUT_SHA256.txt
+      - name: Install and record environment
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip freeze > environment_dependencies.txt
+          lscpu > environment_cpu.txt
+          free -m > environment_memory.txt
+      - name: Recompute seven original cases serially and measure resources
+        run: |
+          set -o pipefail
+          /usr/bin/time -v -o reference_resources.txt python -u run_reference_cloud.py 2>&1 | tee reference_console.txt
+      - name: Compare all raw data and reproduce unchanged decisions
+        run: |
+          set -o pipefail
+          python compare_reference.py 2>&1 | tee comparison_console.txt
+      - name: Confirm all execution inputs remained unchanged
+        if: always()
+        run: sha256sum -c CLOUD_INPUT_SHA256.txt > input_hashes_after.txt
+      - name: Preserve full reproduction and any failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HRF-POST-E67-reference-full-audited
+          path: HRF_ELETRON_2D_POST_E67_01_v0_1/
+          if-no-files-found: error
+          retention-days: 30

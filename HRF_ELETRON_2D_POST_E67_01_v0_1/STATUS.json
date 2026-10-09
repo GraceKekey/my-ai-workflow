@@ -1,0 +1,21 @@
+{
+  "benchmark": "ELETRON-2D-POST-E67-01",
+  "version": "0.1",
+  "archive_integrity": "PASS_65_OF_65",
+  "archival_evaluator_replay": "PASS",
+  "fresh_covariance_reproduction": "NOT_EXECUTED",
+  "extension_protocol": "DRAFT_NOT_FROZEN",
+  "finite_size": "NOT_EXECUTED",
+  "spatial_refinement": "NOT_EXECUTED",
+  "closure_w7": "NOT_MEASURED",
+  "VL_w7_historical": "FAIL",
+  "dynamic_phase": "PENDING",
+  "robustness_question": "OPEN",
+  "blockers": [
+    "GITHUB_TOKEN missing from execution environment",
+    "cloud destination workflow not prepared or verified",
+    "extension freeze requires full reference reproduction"
+  ],
+  "thresholds_changed": false,
+  "originals_overwritten": false
+}
