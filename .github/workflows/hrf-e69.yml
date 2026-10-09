@@ -1,0 +1,108 @@
+name: HRF ELETRON-69 complete supplied protocol
+run-name: HRF E69 full Fock benchmark 64x74
+on:
+  push:
+    branches: [hrf/e69-full-20261009]
+    paths:
+      - 'HRF_ELETRON_69/**'
+      - '.github/workflows/hrf-e69.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: hrf-e69-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  e69:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      E69_PROCESSOS: '2'
+      PYTHONUNBUFFERED: '1'
+      TZ: America/Sao_Paulo
+    defaults:
+      run:
+        working-directory: HRF_ELETRON_69
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract untouched supplied package and verify original hashes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile, hashlib, json
+          root = Path.cwd()
+          p = root / 'PACOTE_ORIGINAL_E69.zip'
+          assert hashlib.sha256(p.read_bytes()).hexdigest() == '361a43d0e53cdb01939f79bd5f675484aef99ceb3503776fc6f44fa3bbf98fd2'
+          with zipfile.ZipFile(p) as z:
+              for entry in z.namelist():
+                  assert (root.parent / entry).resolve().is_relative_to(root.parent.resolve())
+              z.extractall(root.parent)
+          checks = []
+          for line in (root / 'hashes_antes_da_execucao.txt').read_text().splitlines():
+              if not line.strip() or line.lstrip().startswith('#'): continue
+              digest, name = line.split(maxsplit=1)
+              name = name.lstrip('*')
+              assert hashlib.sha256((root / name).read_bytes()).hexdigest() == digest
+              checks.append({'path': name, 'sha256': digest})
+          assert len(checks) == 32
+          (root / 'SOURCE_VERIFIED_BEFORE.json').write_text(json.dumps(checks, indent=2))
+          assert not any(p for p in (root / 'dados').glob('*.json'))
+          assert not any(p for p in (root / 'resultados').glob('*.json'))
+          print('32 original hashes verified; scientific output directories empty')
+          PY
+      - name: Install fixed compatible runtime and record resources
+        run: |
+          python -m pip install numpy==2.2.6 scipy==1.15.3
+          python -m pip freeze > environment_dependencies.txt
+          lscpu > environment_cpu.txt
+          free -m > environment_memory.txt
+          python - <<'PY'
+          import sys, os, platform, json, numpy, scipy
+          from pathlib import Path
+          Path('environment.json').write_text(json.dumps({'python': sys.version, 'numpy': numpy.__version__, 'scipy': scipy.__version__, 'platform': platform.platform(), 'github_run_id': os.environ.get('GITHUB_RUN_ID'), 'github_sha': os.environ.get('GITHUB_SHA'), 'processes': 2, 'BLAS_threads_per_process': 1, 'runtime_satisfies_original_requirements': True, 'runtime_differs_from_declared_smoke_environment': True}, indent=2))
+          PY
+      - name: Execute complete original E69 benchmark
+        run: |
+          set -o pipefail
+          touch resultados/log_execucao.txt
+          tail -n +1 -F resultados/log_execucao.txt &
+          hrf_log_pid=$!
+          trap 'kill "$hrf_log_pid" 2>/dev/null || true' EXIT
+          /usr/bin/time -v -o recursos_rodada.txt python -u src/e69_rodar.py 2>&1 | tee resultados/console_rodada.txt
+      - name: Validate exact Fock formula VQ
+        run: |
+          set -o pipefail
+          /usr/bin/time -v -o recursos_VQ.txt python -u src/validar_formula.py 2>&1 | tee resultados/saida_validar_formula.txt
+      - name: Validate algebra center against brute force VC
+        run: |
+          set -o pipefail
+          /usr/bin/time -v -o recursos_VC.txt python -u src/validar_centro.py 2>&1 | tee resultados/saida_validar_centro.txt
+      - name: Apply unchanged original evaluation criteria
+        run: |
+          set -o pipefail
+          python src/avaliar_e69.py 2>&1 | tee resultados/saida_avaliacao.txt
+      - name: Verify source integrity after execution
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, hashlib
+          checks = json.loads(Path('SOURCE_VERIFIED_BEFORE.json').read_text())
+          after = [{**q, 'matches': hashlib.sha256(Path(q['path']).read_bytes()).hexdigest() == q['sha256']} for q in checks]
+          Path('SOURCE_VERIFIED_AFTER.json').write_text(json.dumps(after, indent=2))
+          assert len(after) == 32 and all(q['matches'] for q in after)
+          PY
+      - name: Preserve sources, raw outputs, controls and negative results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HRF-ELETRON-69-full-original-protocol
+          path: HRF_ELETRON_69/
+          if-no-files-found: error
+          retention-days: 30

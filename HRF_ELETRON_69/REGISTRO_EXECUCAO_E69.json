@@ -1,0 +1,282 @@
+{
+  "benchmark": "HRF ELETRON-69",
+  "stage": "AUTHORIZED_PREPARING_PUBLICATION",
+  "source_integrity": "PASS",
+  "source_hash_count": 32,
+  "source_files": [
+    {
+      "path": "HRF_ELETRON_69_PROTOCOLO_2026-10-08_2240-clau.md",
+      "registered_sha256": "1dbcfdca69374165b91dbf12e422c641f93c3266d55bc9eac0a630bade322aeb",
+      "actual_sha256": "1dbcfdca69374165b91dbf12e422c641f93c3266d55bc9eac0a630bade322aeb",
+      "matches": true
+    },
+    {
+      "path": "LEIAME_E69.md",
+      "registered_sha256": "13832d22e17359136ffd8cfa6554fa5dea12bd97238112419d5f5e2ea8f2a9e3",
+      "actual_sha256": "13832d22e17359136ffd8cfa6554fa5dea12bd97238112419d5f5e2ea8f2a9e3",
+      "matches": true
+    },
+    {
+      "path": "fumaca/FUMACA_E69.md",
+      "registered_sha256": "9f4a51b657dd35f2c231af2eda0fa03b4509e6724d4e14e5ba956d6621c19d7e",
+      "actual_sha256": "9f4a51b657dd35f2c231af2eda0fa03b4509e6724d4e14e5ba956d6621c19d7e",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f1_validacao.txt",
+      "registered_sha256": "827279aebe72989f81094c8484c432fdbb37e07894145b4775764c1ff6ad6042",
+      "actual_sha256": "827279aebe72989f81094c8484c432fdbb37e07894145b4775764c1ff6ad6042",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f1b_validacao_dist.txt",
+      "registered_sha256": "814731bc540c62a037a311873b31a97ec1afb81be145ed487afa47ba54afde62",
+      "actual_sha256": "814731bc540c62a037a311873b31a97ec1afb81be145ed487afa47ba54afde62",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f2_perfis.txt",
+      "registered_sha256": "a34905bfbc1ecc6f7a35e79cf202f419af8a6bd9349aeee6d9e8e671b4f674f8",
+      "actual_sha256": "a34905bfbc1ecc6f7a35e79cf202f419af8a6bd9349aeee6d9e8e671b4f674f8",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f3_64.txt",
+      "registered_sha256": "711e039406164c84ac160f7612c07577235e62849d2e24472cf12252adbb03c0",
+      "actual_sha256": "711e039406164c84ac160f7612c07577235e62849d2e24472cf12252adbb03c0",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f4_gato_sondas.txt",
+      "registered_sha256": "37a02f209470b8dd221d3e12f3213c999112d86b8161c6c7201c833f714b3dc9",
+      "actual_sha256": "37a02f209470b8dd221d3e12f3213c999112d86b8161c6c7201c833f714b3dc9",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f5_centro_40.txt",
+      "registered_sha256": "59a9b82965474fa0539cd4b174aa05c7640764a318d3dd4a0d9413d7dcbc5e8f",
+      "actual_sha256": "59a9b82965474fa0539cd4b174aa05c7640764a318d3dd4a0d9413d7dcbc5e8f",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f6_centro_64.json",
+      "registered_sha256": "d2b3a9d62cf216749fdbdbe752aebb445d8e9054ed0851db55b39854caa35965",
+      "actual_sha256": "d2b3a9d62cf216749fdbdbe752aebb445d8e9054ed0851db55b39854caa35965",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f6_centro_64.txt",
+      "registered_sha256": "67803bc6ed9afc90d798737595ee07c51e36fe3aac576dd571ef8b55434e5252",
+      "actual_sha256": "67803bc6ed9afc90d798737595ee07c51e36fe3aac576dd571ef8b55434e5252",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f7_mapa_centro_w4.txt",
+      "registered_sha256": "cf57f28762a450b649e11ce38296388268a253f6b40b7963f10f26ff6a0ddd43",
+      "actual_sha256": "cf57f28762a450b649e11ce38296388268a253f6b40b7963f10f26ff6a0ddd43",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f7_mapa_centro_w5.txt",
+      "registered_sha256": "b9bc5534c293caabafc0ff9ad312078240fdb4c4d5348bf0739d93c5ccf18ba9",
+      "actual_sha256": "b9bc5534c293caabafc0ff9ad312078240fdb4c4d5348bf0739d93c5ccf18ba9",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f7_mapa_centro_w7.txt",
+      "registered_sha256": "c8ad489d16e7ba320ed0662cba692ca05a67ade08fdaf1826bc176b2fa9b4dd5",
+      "actual_sha256": "c8ad489d16e7ba320ed0662cba692ca05a67ade08fdaf1826bc176b2fa9b4dd5",
+      "matches": true
+    },
+    {
+      "path": "fumaca/f8_aperto_tres.txt",
+      "registered_sha256": "62a82b13479a76ad8c00cafe50f61b0fc79fc652f1c7bb65806298ec9f131645",
+      "actual_sha256": "62a82b13479a76ad8c00cafe50f61b0fc79fc652f1c7bb65806298ec9f131645",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum1_validacao.py",
+      "registered_sha256": "c8f88b9293927b8fd9c0497265d3bbb9e2d563fc91c095ed41aba134affd13c5",
+      "actual_sha256": "c8f88b9293927b8fd9c0497265d3bbb9e2d563fc91c095ed41aba134affd13c5",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum1b_validacao_dist.py",
+      "registered_sha256": "b40017e0ef98dffe2cb75b985a27a25cfcf4f03cf4e6c7437b7d8e12b54478cf",
+      "actual_sha256": "b40017e0ef98dffe2cb75b985a27a25cfcf4f03cf4e6c7437b7d8e12b54478cf",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum2_perfis.py",
+      "registered_sha256": "71585d030bade0643999abe8eae8d4e7ce08acb32ff4b8176419a93625a6535d",
+      "actual_sha256": "71585d030bade0643999abe8eae8d4e7ce08acb32ff4b8176419a93625a6535d",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum3_64.py",
+      "registered_sha256": "012ccb2125c1279aa677d399c5fd7a671966133a2d586ad64b6ad1dd94b4043e",
+      "actual_sha256": "012ccb2125c1279aa677d399c5fd7a671966133a2d586ad64b6ad1dd94b4043e",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum4_gato_sondas.py",
+      "registered_sha256": "9958239dfeed9bdcaa8104cd2155cafdd30fd9ee2d752997a8bf00a5fcfd6be2",
+      "actual_sha256": "9958239dfeed9bdcaa8104cd2155cafdd30fd9ee2d752997a8bf00a5fcfd6be2",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum5_centro.py",
+      "registered_sha256": "5d95d646b33bf52531d473e9b208b8e2d050ad80091d316667ba3ddeb498a41f",
+      "actual_sha256": "5d95d646b33bf52531d473e9b208b8e2d050ad80091d316667ba3ddeb498a41f",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum6_centro_64.py",
+      "registered_sha256": "420888d6174a1a822d7b0e807bc30f8a88a7fd6c5f545ca461104bf6bd66f0ed",
+      "actual_sha256": "420888d6174a1a822d7b0e807bc30f8a88a7fd6c5f545ca461104bf6bd66f0ed",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum7_mapa_centro.py",
+      "registered_sha256": "0f6ed06a9331dc573054e6b36ef64dc5c343d1c62d4bf057779053c917828a2e",
+      "actual_sha256": "0f6ed06a9331dc573054e6b36ef64dc5c343d1c62d4bf057779053c917828a2e",
+      "matches": true
+    },
+    {
+      "path": "fumaca/fum8_aperto_tres.py",
+      "registered_sha256": "5b8bb5af2966dc5a06ff84f9f9b35e8a903919e88bc1f9fd1175b084b5431c9f",
+      "actual_sha256": "5b8bb5af2966dc5a06ff84f9f9b35e8a903919e88bc1f9fd1175b084b5431c9f",
+      "matches": true
+    },
+    {
+      "path": "requirements.txt",
+      "registered_sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+      "actual_sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+      "matches": true
+    },
+    {
+      "path": "src/avaliar_e69.py",
+      "registered_sha256": "5397a8cccf29057aae2fad6788a3a936f822b055addf58c3c1f327f04a27a786",
+      "actual_sha256": "5397a8cccf29057aae2fad6788a3a936f822b055addf58c3c1f327f04a27a786",
+      "matches": true
+    },
+    {
+      "path": "src/e65_holo.py",
+      "registered_sha256": "8dcff36521ed074a9f3bcb8455860d3a3840198cc3ec69a345a568d77168727c",
+      "actual_sha256": "8dcff36521ed074a9f3bcb8455860d3a3840198cc3ec69a345a568d77168727c",
+      "matches": true
+    },
+    {
+      "path": "src/e67_particula.py",
+      "registered_sha256": "01d69b274891a340bafe716c32df0fd0af82264e1f28cd85164c59cd61972a29",
+      "actual_sha256": "01d69b274891a340bafe716c32df0fd0af82264e1f28cd85164c59cd61972a29",
+      "matches": true
+    },
+    {
+      "path": "src/e69_fock.py",
+      "registered_sha256": "56abc00dacee240a6d583d372594b04bdaf248dbdd4ec6b688e8be1f4d773a9f",
+      "actual_sha256": "56abc00dacee240a6d583d372594b04bdaf248dbdd4ec6b688e8be1f4d773a9f",
+      "matches": true
+    },
+    {
+      "path": "src/e69_rodar.py",
+      "registered_sha256": "4d51eade0bde3ec72c3a2f21cad631fb8ced33de83156f06d6fea915a9aa20f3",
+      "actual_sha256": "4d51eade0bde3ec72c3a2f21cad631fb8ced33de83156f06d6fea915a9aa20f3",
+      "matches": true
+    },
+    {
+      "path": "src/validar_centro.py",
+      "registered_sha256": "480e6f2a1e6f34552c1efdb0cc2fae3594a0daca9dfc2a8c4975910ccd5b5fd9",
+      "actual_sha256": "480e6f2a1e6f34552c1efdb0cc2fae3594a0daca9dfc2a8c4975910ccd5b5fd9",
+      "matches": true
+    },
+    {
+      "path": "src/validar_formula.py",
+      "registered_sha256": "77fa3db887b20e47127d788a97a5ec0eb480c35e85a26848356a5f2446077ab8",
+      "actual_sha256": "77fa3db887b20e47127d788a97a5ec0eb480c35e85a26848356a5f2446077ab8",
+      "matches": true
+    }
+  ],
+  "physics": "Fock state n=1,2,4 in scalar out-of-plane Z mode at t=0; not a certified HRF photon or electron",
+  "registered_model": {
+    "NX": 64,
+    "NY": 74,
+    "widths": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "readings": [
+      "cond",
+      "compl",
+      "fator"
+    ],
+    "primary_reading": "cond",
+    "map_offset_fractions": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "centered_radii": [
+      0.5,
+      24,
+      0.25
+    ],
+    "map_max_radius": 30,
+    "squeeze_bridge": 0.25,
+    "cat_separation": 30,
+    "cat_width": 4,
+    "cat_radii": [
+      8,
+      10,
+      12
+    ]
+  },
+  "commands_in_order": [
+    "python src/e69_rodar.py",
+    "python src/validar_formula.py",
+    "python src/validar_centro.py",
+    "python src/avaliar_e69.py"
+  ],
+  "original_scripts_modified": false,
+  "registered_thresholds": "UNCHANGED",
+  "runtime": {
+    "python": "3.12",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "processes": 2,
+    "BLAS_threads_per_process": 1,
+    "timeout_minutes": 90,
+    "expected_minutes_from_readme": [
+      15,
+      40
+    ],
+    "estimated_RAM_GiB": [
+      4,
+      5
+    ]
+  },
+  "scientific_exception_D_E1": "APPROVED_EXPLICITLY_FOR_E69",
+  "prior_E67_exception": "approved_only_for_E67_as_declared_by_E69_protocol",
+  "github_repo": "GraceKekey/my-ai-workflow",
+  "candidate_branch": "hrf/e69-full-20261009",
+  "expected_raw_files": [
+    "fock_4.json",
+    "fock_5.json",
+    "fock_6.json",
+    "fock_7.json",
+    "gato.json"
+  ],
+  "cloud_run_dispatched": false,
+  "results_generated": false,
+  "drive_parent_folder_id": "1dyIdGbTqoufa3ylxZumV7jT3TNooUoPF",
+  "prepared_at_UTC": "2026-10-09T11:13:30.395092+00:00",
+  "workflow_sha256": "6c3a7c87258771228bbaccac8dd828f5f5eb7e813548ff3636ea8db9f08a41db",
+  "user_approval_quote": "Sim pode rodar",
+  "approval_registered_at_UTC": "2026-10-09T11:32:14.390229+00:00"
+}
