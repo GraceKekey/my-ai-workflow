@@ -1,0 +1,131 @@
+id,status,evidence,scientific_gate,reason
+software/test_ADM_inverse_determinant_shift (test_core.Algebra.test_ADM_inverse_determinant_shift),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_AdS_inverse (test_core.Algebra.test_AdS_inverse),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_Euclidean_kernel_invalid (test_core.Algebra.test_Euclidean_kernel_invalid),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_FG_invalid_dimension (test_core.Algebra.test_FG_invalid_dimension),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_actual_historical_houses (test_core.Algebra.test_actual_historical_houses),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_atomic_io (test_core.Algebra.test_atomic_io),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_characteristics_shift (test_core.Algebra.test_characteristics_shift),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_dictionary_gate_branches (test_core.Algebra.test_dictionary_gate_branches),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_fingerprint_key_order (test_core.Algebra.test_fingerprint_key_order),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_gate_branches (test_core.Algebra.test_gate_branches),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_gaussian_correlated_nonzero (test_core.Algebra.test_gaussian_correlated_nonzero),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_gaussian_positive_whole_pure (test_core.Algebra.test_gaussian_positive_whole_pure),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_gaussian_uncoupled_zero (test_core.Algebra.test_gaussian_uncoupled_zero),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_invalid_geometry (test_core.Algebra.test_invalid_geometry),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_mass_dimension_and_BF (test_core.Algebra.test_mass_dimension_and_BF),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_relay_hysteresis (test_core.Algebra.test_relay_hysteresis),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_resource_admission (test_core.Algebra.test_resource_admission),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_P1_gradient_exact_linear (test_core.Discretization.test_P1_gradient_exact_linear),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_checkpoint_resume (test_core.Discretization.test_checkpoint_resume),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_interpolation_partition_and_affine (test_core.Discretization.test_interpolation_partition_and_affine),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_invalid_boundary (test_core.Discretization.test_invalid_boundary),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_mesh_volume (test_core.Discretization.test_mesh_volume),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_offdiagonal_metric_linear_energy (test_core.Discretization.test_offdiagonal_metric_linear_energy),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_receiver_outside (test_core.Discretization.test_receiver_outside),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_reciprocal_coupling_energy_derivative (test_core.Discretization.test_reciprocal_coupling_energy_derivative),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_source_mass_normalization (test_core.Discretization.test_source_mass_normalization),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_source_rotation_parity (test_core.Discretization.test_source_rotation_parity),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_stiffness_constant_neumann (test_core.Discretization.test_stiffness_constant_neumann),PASS_SOFTWARE,resultados/software_tests.log,,
+software/test_timestep_guard (test_core.Discretization.test_timestep_guard),PASS_SOFTWARE,resultados/software_tests.log,,
+numerical/spatial_convergence,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/time_convergence,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/energy_static,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/geometry,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/geodesic,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/shift_reciprocal_Hamiltonian,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/time_dependent_geometry,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/compact_source_exterior,PASS_NUMERICAL,resultados/numerical.json,,
+numerical/dispersion,PASS_NUMERICAL,resultados/numerical.json,,
+supplement/AdS_cavity,PASS_NUMERICAL,suplementos/resultados_suplementares.json,,
+supplement/time_dependent_work,PASS_NUMERICAL,suplementos/resultados_suplementares.json,,
+dictionary/mass_dimension,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/Euclidean_kernel_normalization,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/Euclidean_kernel_KG,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/GKPW_asymptotic_source_response,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/GKPW_functional_derivative,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/FG_coefficients,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+dictionary/operator_code_positive_negative,PASS_NUMERICAL,resultados/reference/dictionary.json,,
+RT_restricted_holdout,PASS_HOLOGRAPHIC_REFERENCE,resultados/reference/reference.json,,
+HKLL_spectral_holdout,PASS_HOLOGRAPHIC_REFERENCE,resultados/reference/reference.json,,
+smoke/G_P_s+1,EXECUTED,resultados/smoke/G_P_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+smoke/G_P_s-1,EXECUTED,resultados/smoke/G_P_s-1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+smoke/parity_reflected_rotation/paired_control,PASS_NUMERICAL,resultados/smoke/comparisons.json,,
+standard/G_P_s+1,EXECUTED,resultados/standard/G_P_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_P_s-1,EXECUTED,resultados/standard/G_P_s-1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V1a6_s+1,EXECUTED,resultados/standard/G_V1a6_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V1a12_s+1,EXECUTED,resultados/standard/G_V1a12_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V1a12_s-1,EXECUTED,resultados/standard/G_V1a12_s-1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V1a18_s+1,EXECUTED,resultados/standard/G_V1a18_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V2n_s+1,EXECUTED,resultados/standard/G_V2n_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V2n_s-1,EXECUTED,resultados/standard/G_V2n_s-1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V2o_s+1,EXECUTED,resultados/standard/G_V2o_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V2o_s-1,EXECUTED,resultados/standard/G_V2o_s-1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V3s44_s+1,EXECUTED,resultados/standard/G_V3s44_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/G_V3s45_s+1,EXECUTED,resultados/standard/G_V3s45_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1f03_s+1,EXECUTED,resultados/standard/T_T1f03_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1Rf03_s+1,EXECUTED,resultados/standard/T_T1Rf03_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1f05_s+1,EXECUTED,resultados/standard/T_T1f05_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1Rf05_s+1,EXECUTED,resultados/standard/T_T1Rf05_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1f08_s+1,EXECUTED,resultados/standard/T_T1f08_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/T_T1Rf08_s+1,EXECUTED,resultados/standard/T_T1Rf08_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/M_P_s+1,EXECUTED,resultados/standard/M_P_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/M_V1a18_s+1,EXECUTED,resultados/standard/M_V1a18_s+1/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_mass0,EXECUTED,resultados/standard/C_mass0/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_mass1p2,EXECUTED,resultados/standard/C_mass1p2/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_frequency2p2,EXECUTED,resultados/standard/C_frequency2p2/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_neumann,EXECUTED,resultados/standard/C_neumann/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_half_dt,EXECUTED,resultados/standard/C_half_dt/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_harmonic,EXECUTED,resultados/standard/C_harmonic/metrics.json,INCONCLUSIVE,3D candidate not continuum-certified; amplitude/threshold calibration cannot be assumed identical across dimensions
+standard/C_mass0/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/C_mass1p2/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/C_frequency2p2/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/C_neumann/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/C_half_dt/paired_control,PASS_NUMERICAL,resultados/standard/comparisons.json,,
+standard/C_harmonic/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/M_P_s+1/paired_control,DESCRIPTIVE_NOT_CERTIFIED,resultados/standard/comparisons.json,,
+standard/parity_reflected_rotation/paired_control,PASS_NUMERICAL,resultados/standard/comparisons.json,,
+high_resolution/G_P_s+1,BLOCKED,resultados/high_resolution/G_P_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_P_s-1,BLOCKED,resultados/high_resolution/G_P_s-1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V1a6_s+1,BLOCKED,resultados/high_resolution/G_V1a6_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V1a12_s+1,BLOCKED,resultados/high_resolution/G_V1a12_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V1a12_s-1,BLOCKED,resultados/high_resolution/G_V1a12_s-1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V1a18_s+1,BLOCKED,resultados/high_resolution/G_V1a18_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V2n_s+1,BLOCKED,resultados/high_resolution/G_V2n_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V2n_s-1,BLOCKED,resultados/high_resolution/G_V2n_s-1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V2o_s+1,BLOCKED,resultados/high_resolution/G_V2o_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V2o_s-1,BLOCKED,resultados/high_resolution/G_V2o_s-1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V3s44_s+1,BLOCKED,resultados/high_resolution/G_V3s44_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/G_V3s45_s+1,BLOCKED,resultados/high_resolution/G_V3s45_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1f03_s+1,BLOCKED,resultados/high_resolution/T_T1f03_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1Rf03_s+1,BLOCKED,resultados/high_resolution/T_T1Rf03_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1f05_s+1,BLOCKED,resultados/high_resolution/T_T1f05_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1Rf05_s+1,BLOCKED,resultados/high_resolution/T_T1Rf05_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1f08_s+1,BLOCKED,resultados/high_resolution/T_T1f08_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/T_T1Rf08_s+1,BLOCKED,resultados/high_resolution/T_T1Rf08_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/M_P_s+1,BLOCKED,resultados/high_resolution/M_P_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/M_V1a18_s+1,BLOCKED,resultados/high_resolution/M_V1a18_s+1/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_mass0,BLOCKED,resultados/high_resolution/C_mass0/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_mass1p2,BLOCKED,resultados/high_resolution/C_mass1p2/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_frequency2p2,BLOCKED,resultados/high_resolution/C_frequency2p2/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_neumann,BLOCKED,resultados/high_resolution/C_neumann/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_half_dt,BLOCKED,resultados/high_resolution/C_half_dt/metrics.json,BLOCKED,RESOURCE_LIMIT
+high_resolution/C_harmonic,BLOCKED,resultados/high_resolution/C_harmonic/metrics.json,BLOCKED,RESOURCE_LIMIT
+resolved/flat_plus,EXECUTED,controle_resolvido/flat_plus/metrics.json,,
+resolved/flat_minus,EXECUTED,controle_resolvido/flat_minus/metrics.json,,
+resolved/valley,EXECUTED,controle_resolvido/valley/metrics.json,,
+resolved/two_valleys,EXECUTED,controle_resolvido/two_valleys/metrics.json,,
+resolved/lapse,EXECUTED,controle_resolvido/lapse/metrics.json,,
+resolved/refined,EXECUTED,controle_resolvido/refined/metrics.json,,
+resolved/boundary,EXECUTED,controle_resolvido/boundary/metrics.json,,
+resolved/check/parity_relative_error,PASS_NUMERICAL,controle_resolvido/summary.json,,
+resolved/check/spatial_refinement_relative_error,PASS_NUMERICAL,controle_resolvido/summary.json,,
+resolved/check/boundary_relative_error,PASS_NUMERICAL,controle_resolvido/summary.json,,
+resolved/check/all_receivers_detected,PASS_NUMERICAL,controle_resolvido/summary.json,,
+HRT,BLOCKED,LIMITACOES_E_LACUNAS.md,,covariant extremal-surface solver absent
+QES,BLOCKED,LIMITACOES_E_LACUNAS.md,,variational bulk state/entropy functional absent
+HRF_CFT_dictionary,BLOCKED,LIMITACOES_E_LACUNAS.md,,"no validated physical dual, explicitly absent in user dictionary"
+multisector_compatibility,BLOCKED,LIMITACOES_E_LACUNAS.md,,no Maxwell/Dirac/gauge extension implemented
+reanalysis/regression_1,PASS_SOFTWARE,reanalise/testes.json,,
+reanalysis/regression_2,PASS_SOFTWARE,reanalise/testes.json,,
+reanalysis/regression_3,PASS_SOFTWARE,reanalise/testes.json,,
