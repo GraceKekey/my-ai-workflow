@@ -1,0 +1,256 @@
+{
+  "consulted": [
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/run.py",
+      "bytes": 10992,
+      "sha256": "29ef7b38ab6e3dd05e825ba3a051714e6e1daa6cb42bbd3ca4dac805f66505ba",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_system.py",
+      "bytes": 1829,
+      "sha256": "89687b17f1f1bbaa542905146b3fbdfbb1f6f458c1c1ba3ced87b7eb92a831d4",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/dynamics.py",
+      "bytes": 5673,
+      "sha256": "fdf3eb7464b6f75261fabe378be0506d323065f52bd2f86d9b0c3e627f9c476a",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/fem.py",
+      "bytes": 4170,
+      "sha256": "9410500e9e68f2fc607937c8ffddbbe8b45bdecfccb99d04202922fa6b974f68",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/mesh_adaptive.py",
+      "bytes": 3004,
+      "sha256": "ad3eff558e5576bd8d1359df457befd9aca29c45543e1dc1262acc791a2463d5",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/geometry.py",
+      "bytes": 4087,
+      "sha256": "d6a262b32a9335fa22944c9362c07a03a7e3bdb5b9cb429e4ced8bff74a14801",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_geometry.py",
+      "bytes": 1386,
+      "sha256": "1a1cd68c7d21d88a19aa7c201dba9036e7b7d6c5a1e7b7121eb48ab91f9d729f",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/history.py",
+      "bytes": 4146,
+      "sha256": "578b9474519b9af1e1a4d46f634b5e9716cd2e9d3347254564d93b8fb71077ad",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/volume_observables.py",
+      "bytes": 1883,
+      "sha256": "2e50d3003eed4b3ebf0579d9497dd2c03daa2e9e46a7d27890b31657061fac34",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_storage.py",
+      "bytes": 1603,
+      "sha256": "19d3e48dcc09e20158ba784478b62f402f3be59758f14506434cf0eba513644b",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_config.py",
+      "bytes": 5709,
+      "sha256": "f2a339ddfebf3d02841dae7d1f730dec670dcf4e448de063d5065f31f898904c",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_source.py",
+      "bytes": 1059,
+      "sha256": "0560b087f9135af4f38b688903eb7ec6c4bf59c5476866cb599963723146aa49",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/spiral_receivers.py",
+      "bytes": 1442,
+      "sha256": "5bb18ffd97228ab77ef5bfa770ae6acfaa29bfca3b31eecbdf52d445917a9c8d",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/phase_analysis.py",
+      "bytes": 3890,
+      "sha256": "e28d88a4d68c501559eb465eba1d47f044294f9a8088acb83f2fe4839f1e689a",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/helicity_metrics.py",
+      "bytes": 3572,
+      "sha256": "5ee5714520cef916f91574ef1c9d3ee12e731321b289e18a91836da7a1a5d1f0",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/ridge_tracking.py",
+      "bytes": 2330,
+      "sha256": "529bf907a4d7a5555131737ae6cd8ee954afee4b090bd926da97f7c03fcf27f3",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/visualization_3d.py",
+      "bytes": 3732,
+      "sha256": "e275a76758864b3a015103187417d31da4c1f3c762a241700b7694fa9730fb54",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/hrf_integral/plot3d.py",
+      "bytes": 15589,
+      "sha256": "63d3be282b20d3321cdaa5a364e7f6e3601580e8821b5a9d5e2d9d6b926f1742",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/historico/B39V/src/b39v_config.py",
+      "bytes": 3562,
+      "sha256": "95fa48760f2d8058dd6cbd51c04536c592abf35735949a981dde001f9e222b12",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/historico/B39V/src/b39v_membrana.py",
+      "bytes": 5454,
+      "sha256": "90977864861e3ee4c1777edca92d0be36e0a50a8a1a2188b3cbc99429960b3f4",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/historico/B39V/src/b39_rele.py",
+      "bytes": 6196,
+      "sha256": "67bcaabd578a0110260b1ca6882f7b256c3881aee4d8bcf8aec5f5a807e564cf",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/PROTOCOLO_SPIRAL.md",
+      "bytes": 7653,
+      "sha256": "0a756958b92703b40293f7e2421c0837c809168dc7371408ff476be23cc512e1",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/config/spiral_standard.json",
+      "bytes": 2470,
+      "sha256": "1c80a43c1fac88e41eb071be2ebd837c59f28902e1fc068571565d0b32708a6a",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/config/gates.json",
+      "bytes": 409,
+      "sha256": "04be3e0e628ce2c349b62269ee87115a346f2617ee72bcb5a7773b341ab01e2a",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/reports/technical_smoke/summary.json",
+      "bytes": 2787,
+      "sha256": "4451fd82cf411cbd1ec3230a4cbe7cb972ced596d3d861bcd693ef0c820143a2",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_INTEGRAL_01/PROTOCOLO_CIENTIFICO.md",
+      "bytes": 5612,
+      "sha256": "7ff855f074bcbca62c5b8929a53cd131cacccd9793ad1befeb5c7a32940f0dbd",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_INTEGRAL_01/MAPA_B39V_2P5D_PARA_BULK_3P1.md",
+      "bytes": 2131,
+      "sha256": "d088e095460526c0d3d86eda6807f998d2da8817c8d20afdeeda114c8b2c204b",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/documentacao/HRF_Research_Book_Cap0_1_Diretrizes_Reconstrucao_Unificadora_Progressiva_v0_1_PT_2026-10-08(1).md",
+      "bytes": 13126,
+      "sha256": "ffc1ffb9fc40b9a7f59dc656aca5cc7fbc7d039b47326c159cc1cb5645b27ed6",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/HRF_B39V_BULK_3P1_SPIRAL_DIAGNOSTICS_v0_1_PREREG_NAO_EXECUTADO/documentacao/HRF_Research_Book_Cap03_Base_Quantica_Compartilhada_DIO_e_GMFt_v0_2_PT_2026-10-22 (1).md",
+      "bytes": 42357,
+      "sha256": "0dc34528dbfe5bf3c0c609a06d25311d306202ff69b24d9f490f08e353d4fc6d",
+      "operation": "CONSULTED_SOURCE_OR_HISTORICAL_REFERENCE",
+      "claim": "historical source only; not a substitute for inaccessible current documents"
+    },
+    {
+      "file": "/workspace/hrf-b39v-20261022/HRF_B39V_OLA_Vale_2_5D_PREREGISTRO_2026-10-22_1944-clau/resultados/G_V1a12_s+1.npz",
+      "sha256": "bd5bfdcc21d7c084b639733d7ebdff08e12f9b4e60a628818bcda3a0b0e6b5c9",
+      "operation": "EXTRACTED_ARCHIVED_P_H_T_WITHOUT_PDE",
+      "extracted_file": "inputs/archived_geometry/G_V1a12_s+1.npz",
+      "extracted_sha256": "f15e3b9634f81881eeb340c1bfddf489956f2d952b239ef87fb1e9cc390a0f10"
+    },
+    {
+      "file": "/workspace/hrf-b39v-20261022/HRF_B39V_OLA_Vale_2_5D_PREREGISTRO_2026-10-22_1944-clau/resultados/G_V2n_s+1.npz",
+      "sha256": "cf6d8fcfc51de72f091ce65582ed809c05a7d8da068e4af47008cf909e7d3204",
+      "operation": "EXTRACTED_ARCHIVED_P_H_T_WITHOUT_PDE",
+      "extracted_file": "inputs/archived_geometry/G_V2n_s+1.npz",
+      "extracted_sha256": "b9e230910971e6796ef00efea7ed5a2fb1832863e56593ba1f17e70c455e1a65"
+    },
+    {
+      "file": "/workspace/hrf-b39v-20261022/HRF_B39V_OLA_Vale_2_5D_PREREGISTRO_2026-10-22_1944-clau/resultados/G_V2o_s+1.npz",
+      "sha256": "388136806160d5d96df0ea7beaedd78c3f3540f195131de433171d12375a1dd2",
+      "operation": "EXTRACTED_ARCHIVED_P_H_T_WITHOUT_PDE",
+      "extracted_file": "inputs/archived_geometry/G_V2o_s+1.npz",
+      "extracted_sha256": "e056754488f02cd9df72014502ac3e8c1e02458e7067ae7a87ed7c9e377c5f57"
+    }
+  ],
+  "missing": {
+    "date": "2026-10-24",
+    "mandatory": [
+      {
+        "name": "HRF_Research_Book_Cap0_1_Diretrizes_Reconstrucao_Unificadora_Progressiva_v0_2_PT_2026-10-09.md",
+        "url": "https://drive.google.com/file/d/1ORdJioQTaZL8Wfg_LasZyDu1maQ4Tn2I/view",
+        "status": "HTTP_401_UNAUTHORIZED",
+        "read": false
+      },
+      {
+        "name": "HRF_Research_Book_Cap03_Base_Quantica_Compartilhada_DIO_e_GMFt_v0_5_PT_2026-10-24.md",
+        "status": "NOT_FOUND_LOCAL_NO_PUBLIC_LINK",
+        "read": false
+      }
+    ],
+    "baseline": {
+      "url": "https://drive.google.com/drive/folders/1urT4P3y2Fbk41wHlVLRhAMCM-j1nUSXD",
+      "status": "HTTP_200_REDIRECT_GOOGLE_SIGN_IN_NOT_DATA",
+      "raw_accessed": false
+    },
+    "DX": {
+      "status": "LOCATION_OR_LINK_REQUESTED_NOT_PROVIDED"
+    },
+    "authenticated_drive_connector_available": false,
+    "requests": "ordinary HTTPS through inherited proxy and CA; no credential substitution",
+    "search": "rg --files in workspace/tmp/attachments; local previous packages recovered"
+  },
+  "immutable_copies_manifest": "reports/heranca_verificada.json"
+}
