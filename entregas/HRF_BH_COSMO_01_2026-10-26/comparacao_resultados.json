@@ -1,0 +1,36 @@
+{
+  "status": "REPRODUCED_BYTE_FOR_BYTE",
+  "files": [
+    {
+      "path": "resultados/01_curvatura_flrw_cenarios.csv",
+      "byte_identical": true,
+      "original_sha256": "ae6d123ad7f7eb41e0a6860a5868b1d45b7fd7f5b69515a3f6cbe5a96c149135",
+      "new_sha256": "ae6d123ad7f7eb41e0a6860a5868b1d45b7fd7f5b69515a3f6cbe5a96c149135"
+    },
+    {
+      "path": "resultados/02_visibilidade_toy_cenarios.csv",
+      "byte_identical": true,
+      "original_sha256": "5c903a344ce43f91d3f379baffdfd71bad72994c97d2483b0569f6c67b1dfbfd",
+      "new_sha256": "5c903a344ce43f91d3f379baffdfd71bad72994c97d2483b0569f6c67b1dfbfd"
+    },
+    {
+      "path": "resultados/03_controle_rotacao_rigida.csv",
+      "byte_identical": true,
+      "original_sha256": "eae9cbd100ecc024abcecd236a3afb0104849d56d79ef076d8f5178665680a74",
+      "new_sha256": "eae9cbd100ecc024abcecd236a3afb0104849d56d79ef076d8f5178665680a74"
+    },
+    {
+      "path": "resultados/04_rotacao_diferencial_toy.csv",
+      "byte_identical": true,
+      "original_sha256": "5ca6659455569c0a2338a44fb6744ac54d3f0aaa8fbe6ea5a40a003605b91f1b",
+      "new_sha256": "5ca6659455569c0a2338a44fb6744ac54d3f0aaa8fbe6ea5a40a003605b91f1b"
+    },
+    {
+      "path": "resultados/resumo_resultados.json",
+      "byte_identical": true,
+      "original_sha256": "0534ce4e3f22c754e8c9ce1afe51d50e23099f2d3c69d9edf1dba10a7990ad4c",
+      "new_sha256": "0534ce4e3f22c754e8c9ce1afe51d50e23099f2d3c69d9edf1dba10a7990ad4c"
+    }
+  ],
+  "stdout_byte_identical": true
+}
