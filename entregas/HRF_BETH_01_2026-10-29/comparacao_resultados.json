@@ -1,0 +1,77 @@
+{
+  "scientific_fields": [
+    {
+      "field": "input",
+      "identical": true
+    },
+    {
+      "field": "principal",
+      "identical": true
+    },
+    {
+      "field": "reverse",
+      "identical": true
+    },
+    {
+      "field": "control_reference_nm",
+      "identical": true
+    },
+    {
+      "field": "checks",
+      "identical": true
+    },
+    {
+      "field": "thresholds",
+      "identical": true
+    },
+    {
+      "field": "veredito_controle",
+      "identical": true
+    },
+    {
+      "field": "gate_hrf_b41",
+      "identical": true
+    },
+    {
+      "field": "gate_hrf_beth",
+      "identical": true
+    }
+  ],
+  "CSV": [
+    {
+      "file": "convergencia.csv",
+      "byte_identical": true,
+      "sha256": "fd4ba04256b2abdd256086d58c1a56c9eca0a5ebaaab8e2ce9919a68b8fe619e"
+    },
+    {
+      "file": "pendulo_torcao.csv",
+      "byte_identical": true,
+      "sha256": "1a617dc0d490f320f6e07893ca3bf7bb9089b2e6e9e589eea919f649a523cd1e"
+    },
+    {
+      "file": "torque_local.csv",
+      "byte_identical": true,
+      "sha256": "2c88bbf204db8162ca697120d5e9d1523a0acf64b84d37c552d34324262f3f7d"
+    },
+    {
+      "file": "varredura_comprimento_onda.csv",
+      "byte_identical": true,
+      "sha256": "ae4a42e6019d07dd2ad5fdadff26c1c0fdf4ec98bc48a4b0abab43ac2cf052bf"
+    },
+    {
+      "file": "varredura_potencia.csv",
+      "byte_identical": true,
+      "sha256": "0ad4af46904c4cc213ff2068447fe0ee9be0051f2e7767ec7aeb4ab3d379686d"
+    },
+    {
+      "file": "varredura_retardo.csv",
+      "byte_identical": true,
+      "sha256": "9dd9dd003c26c1b8610fa95e163d2e5428bba3b65e322e761f771b3d2e645d49"
+    }
+  ],
+  "excluded": [
+    "timestamp_utc",
+    "environment",
+    "plot and log byte-level identity"
+  ]
+}
